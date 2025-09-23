@@ -4,6 +4,20 @@ author: "Joel Karr"
 format: html
 ---
 
-This is the Quarto book version of the manuscript. Use the navigation on the left to jump between chapters.
+::: {.book-hero}
+# The Developer's Playbook
 
-<!-- You can customize this landing page; the book chapters are taken from the files listed in `_quarto.yml`. -->
+Build predictable engineering results. Learn mental models, task templates, and team practices that make good decisions automatic.
+
+<p class="lead">A practical handbook for engineers who want to get better at thinking before they code — ship with clarity, influence teams, and build long-term careers.</p>
+
+::: {.buttons}
+- [Get started](Preface.md){.btn .btn-primary}
+- [View table of contents](Table_of_Contents.md){.btn}
+:::
+:::
+
+---
+
+This book is organized as a practical playbook. Use the left navigation to jump to any chapter. Each chapter is standalone and includes examples and task templates you can apply immediately.
+
