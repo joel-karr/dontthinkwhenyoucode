@@ -1,0 +1,43 @@
+name: Build Quarto Book
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      # Install Quarto CLI
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # (Optional) Cache TinyTeX so PDF builds are faster
+      - name: Cache TinyTeX
+        uses: actions/cache@v4
+        with:
+          path: ~/.TinyTeX
+          key: tinytex-${{ runner.os }}-v1
+
+      # Install TinyTeX (TeX engine needed for PDF)
+      - name: Install TinyTeX
+        run: quarto install tinytex
+
+      # Render the whole book; produces _book/ (HTML) and _book/*.pdf if configured
+      - name: Render (PDF + HTML + EPUB)
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: pdf,html,epub
+
+      # Upload the built files as downloadable artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-outputs
+          path: |
+            _book/**
