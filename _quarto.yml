@@ -4,8 +4,7 @@ project:
 book:
   title: "The Developer's Playbook"
   author: "Joel Karr"
-  home: index.qmd
-  contents:
+  chapters:
     - index.qmd
     - Preface.md
     - The_Origin.md
