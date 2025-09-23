@@ -24,7 +24,6 @@ book:
 
 format:
   html:
-    toc: true
     number-sections: true
     theme:
       light: flatly
