@@ -34,10 +34,10 @@ jobs:
       - name: Render (PDF + HTML + EPUB)
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to:
-            - pdf
-            - html
-            - epub
+          to: |
+            pdf
+            html
+            epub
 
       # Upload the built files as downloadable artifacts
       - name: Upload artifacts
