@@ -31,13 +31,14 @@ jobs:
           QUARTO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Render the whole book; produces _book/ (HTML) and _book/*.pdf if configured
-      - name: Render (PDF + HTML + EPUB)
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: |
-            pdf
-            html
-            epub
+      - name: Render PDF
+        run: quarto render --to pdf
+
+      - name: Render HTML
+        run: quarto render --to html
+
+      - name: Render EPUB
+        run: quarto render --to epub
 
       # Upload the built files as downloadable artifacts
       - name: Upload artifacts
