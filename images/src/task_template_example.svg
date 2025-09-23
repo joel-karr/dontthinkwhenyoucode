@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="620" viewBox="0 0 940 620">
+  <defs>
+    <!-- Slight shadow for the sketch card -->
+    <filter id="paper">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-opacity="0.2"></feDropShadow>
+    </filter>
+    <!-- Hand-drawn vibe: draw lines twice with slight jitter -->
+    <style>
+      .scribble { stroke:#111; stroke-width:2.2; fill:none; stroke-linecap:round; }
+      .scribble2 { stroke:#111; stroke-width:1.4; fill:none; stroke-linecap:round; opacity:0.6; }
+      .label { font: 700 18px "Segoe UI", system-ui, -apple-system, sans-serif; fill:#111; }
+      .text  { font: 16px "Segoe UI", system-ui, -apple-system, sans-serif; fill:#111; }
+      .title { font: 800 22px "Segoe UI", system-ui, -apple-system, sans-serif; fill:#111; letter-spacing:0.5px; }
+      .mono  { font: 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill:#111; }
+      .checkbox { stroke:#111; stroke-width:2; fill:none; }
+      .checkbox2 { stroke:#111; stroke-width:1.2; fill:none; opacity:0.6; }
+    </style>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="20" y="20" width="900" height="580" rx="10" ry="10" fill="#fff" filter="url(#paper)"></rect>
+  <!-- Wobbly outer border (two passes) -->
+  <path class="scribble" d="M30,32 L910,25 L915,595 L26,600 Z"></path>
+  <path class="scribble2" d="M34,28 L906,30 L910,592 L30,596 Z"></path>
+
+  <!-- Header band -->
+  <path class="scribble" d="M40,80 L900,75"></path>
+  <path class="scribble2" d="M42,83 L902,78"></path>
+
+  <text x="52" y="62" class="title">TASK TEMPLATE</text>
+
+  <!-- Template Name + Purpose -->
+  <text x="52" y="112" class="label">Template Name:</text>
+  <path class="scribble" d="M210,114 L880,110"></path>
+  <path class="scribble2" d="M210,118 L880,114"></path>
+
+  <text x="52" y="148" class="label">Purpose:</text>
+  <path class="scribble" d="M140,150 L880,146"></path>
+  <path class="scribble2" d="M140,154 L880,150"></path>
+
+  <!-- Section divider -->
+  <path class="scribble" d="M40,180 L900,176"></path>
+  <path class="scribble2" d="M42,183 L902,179"></path>
+
+  <!-- Technology Stack -->
+  <text x="52" y="206" class="label">Technology Stack</text>
+  <path class="scribble" d="M48,212 L210,212"></path>
+  <path class="scribble2" d="M50,214 L212,214"></path>
+
+  <text x="60" y="238" class="text">– ________________________________________________</text>
+  <text x="60" y="264" class="text">– ________________________________________________</text>
+  <text x="60" y="290" class="text">– ________________________________________________</text>
+
+  <!-- Section divider -->
+  <path class="scribble" d="M40,318 L900,314"></path>
+  <path class="scribble2" d="M42,321 L902,317"></path>
+
+  <!-- Development Tasks -->
+  <text x="52" y="344" class="label">Development Tasks</text>
+  <path class="scribble" d="M48,350 L220,350"></path>
+  <path class="scribble2" d="M50,352 L222,352"></path>
+
+  <!-- Checkboxes with lines -->
+  <rect x="60" y="362" width="18" height="18" class="checkbox"></rect>
+  <rect x="61.5" y="363.5" width="18" height="18" class="checkbox2"></rect>
+  <text x="88" y="376" class="text">Step 1: _____________________________________________</text>
+
+  <rect x="60" y="396" width="18" height="18" class="checkbox"></rect>
+  <rect x="61.5" y="397.5" width="18" height="18" class="checkbox2"></rect>
+  <text x="88" y="410" class="text">Step 2: _____________________________________________</text>
+
+  <rect x="60" y="430" width="18" height="18" class="checkbox"></rect>
+  <rect x="61.5" y="431.5" width="18" height="18" class="checkbox2"></rect>
+  <text x="88" y="444" class="text">Step 3: _____________________________________________</text>
+
+  <rect x="60" y="464" width="18" height="18" class="checkbox"></rect>
+  <rect x="61.5" y="465.5" width="18" height="18" class="checkbox2"></rect>
+  <text x="88" y="478" class="text">Step 4: _____________________________________________</text>
+
+  <!-- Section divider -->
+  <path class="scribble" d="M40,506 L900,502"></path>
+  <path class="scribble2" d="M42,509 L902,505"></path>
+
+  <!-- Notes / Standards -->
+  <text x="52" y="532" class="label">Notes / Standards</text>
+  <path class="scribble" d="M48,538 L220,538"></path>
+  <path class="scribble2" d="M50,540 L222,540"></path>
+
+  <text x="60" y="564" class="mono">• ________________________________________________</text>
+  <text x="60" y="588" class="mono">• ________________________________________________</text>
+</svg>
