@@ -1,0 +1,9 @@
+---
+title: "The Developer's Playbook"
+author: "Joel Karr"
+format: html
+---
+
+This is the Quarto book version of the manuscript. Use the navigation on the left to jump between chapters.
+
+<!-- You can customize this landing page; the book chapters are taken from the files listed in `_quarto.yml`. -->

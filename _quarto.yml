@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "The Developer's Playbook"
+  author: "Joel Karr"
+  chapters:
+    - Preface.md
+    - The_Origin.md
+    - Deliberate_Practice.md
+    - Task_Templates.md
+    - Instant_Decisions.md
+    - Innovation.md
+    - The_Core_Doesnt_Change.md
+    - Think_Together.md
+    - Code_Review.md
+    - Requirements_Gathering.md
+    - Business_Alignment.md
+    - Embracing_Imperfection.md
+    - Building_Engineering_Culture.md
+    - Technical_Leadership.md
+    - Architecting_Your_Career.md
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme:
+      light: flatly
+      dark: slate
