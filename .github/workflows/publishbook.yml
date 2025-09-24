@@ -2,7 +2,7 @@ name: Build Quarto Book
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, chore/quarto-scaffold ]
   workflow_dispatch:
 
 jobs:
