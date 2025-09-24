@@ -25,6 +25,17 @@ Where are we going next, and how does this fit in?
 
 ## When Mental Models Collide
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-when-mental-models-collide
+- See @sec-shared-mental-models
+- See @sec-power-of-shared-templates
+<!-- AI:END:mini-toc -->
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding a visual for shared mental models or the color-coding example mentioned in the chapter -->
+<!-- AI:END:figure-placeholder -->
+
 The bigger the team, the more moving parts you introduce:
 
 - Misaligned expectations

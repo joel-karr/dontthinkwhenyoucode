@@ -24,6 +24,13 @@ Where are we going next, and how does this fit in?
 
 <!-- begin sect1 -->
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-cloud-room
+- See @sec-training-journal
+- See @sec-building-your-training-system
+<!-- AI:END:mini-toc -->
+
 You know what flow feels like, when your mind locks in to the code and time disappears. But getting there consistently? That's where things get tricky.
 
 If you've been spending lots of time writing production code hoping that would automatically make you a better engineer, you're not alone. Many software engineers hit a plateau. Despite years of experience, writing code either becomes boring or you get frustrated with the same issues repeatedly.
@@ -40,7 +47,11 @@ However, if you've trained your skills and found a project that truly challenges
 
 In this chapter, you'll learn how to train your skills deliberately and create a system that turns your real-world challenges into a detailed training program. 
 
-## The Cloud Room
+## The Cloud Room {#sec-cloud-room}
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding a diagram that shows the deliberate practice flow or a timeline of training journal entries -->
+<!-- AI:END:figure-placeholder -->
 
 I learned the power of deliberate practice firsthand during one of the most difficult projects in my career: a full-scale modernization of a major e-commerce system.
 
@@ -87,7 +98,7 @@ This is what deliberate practice looks like in the real world. Building the ment
 
 <!-- begin sect1 -->
 
-## The Training Journal Technique
+## The Training Journal Technique {#sec-training-journal}
 
 One of the most powerful tools during my own growth was my training journal. But I didn't learn it from a computer science book, I learned it in a wrestling practice room.
 
@@ -126,7 +137,7 @@ Each item became a deliberate practice rep. Over time, the journal became my per
 
 <!-- begin sect1 -->
 
-## Building Your Personal Training System
+## Building Your Personal Training System {#sec-building-your-training-system}
 
 The power of the training journal lies in the practice of writing things down. Start with a physical notepad. 
 
@@ -210,6 +221,13 @@ Deliberate practice helps you strengthen your skills, but flow also depends on r
 <!-- end sect1 -->
 
 <!-- end chapter -->
+
+<!-- AI:BEGIN:end-matter -->
+## Exercises
+- Keep a training journal for one week and capture 3 hesitations per day.
+- Create one focused deliberate practice exercise and schedule two 45-minute sessions.
+
+<!-- AI:END:end-matter -->
 
 
 

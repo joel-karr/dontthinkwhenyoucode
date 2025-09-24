@@ -24,6 +24,13 @@ Where are we going next, and how does this fit in?
 
 By this point in your journey, you've been building tools to think better, to practice better, and to collaborate better.
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-build-transferable-depth
+- See @sec-career-transition-playbook
+- See @sec-career-growth-decision-framework
+<!-- AI:END:mini-toc -->
+
 But now we shift into something even more important — because this part of your thinking system affects everything that comes next:
 
 How do you design a career that keeps compounding, no matter how technology evolves?

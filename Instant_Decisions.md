@@ -24,11 +24,22 @@ Where are we going next, and how does this fit in?
 
 <!-- begin sect1 -->
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-applying-mental-models
+- See @sec-phd-student-turned-poker-player
+- See @sec-overcoming-decision-roadblocks
+<!-- AI:END:mini-toc -->
+
 Task templates reduce the number of small decisions that you face when building software. But even with task templates, software engineering is still full of judgement calls. Early in your career, the challenge is finding any possible way to build a feature. As you progress, the challenge shifts to choosing the best approach from multiple viable options. 
 
 That's where mental models come in. In this chapter, we'll explore how to build and apply mental models so you can recognize patterns, navigate large code bases and make confident decisions without feeling overwhelmed.
 
-## Applying Mental Models to Reduce Decisions
+## Applying Mental Models to Reduce Decisions {#sec-applying-mental-models}
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding a diagram showing decision flow or a mental model map -->
+<!-- AI:END:figure-placeholder -->
 
 One of the most impressive software engineers I have ever worked with was ready to give up. He had just moved onto a less experienced team working in a codebase that was over 15 years old. A patchwork of different approaches and frameworks. We needed him to deliver quickly, but the sheer size and disorganization of the system made it feel impossible.
 
@@ -49,7 +60,7 @@ The shift to pattern recognition gave the team a way forward, but it also highli
 
 <!-- begin sect1 -->
 
-## PhD Student Turned Poker Player
+## PhD Student Turned Poker Player {#sec-phd-student-turned-poker-player}
 
 In the early 2000s, poker exploded in popularity after an amateur player named Chris Moneymaker --- yes, that's his real name --- won the World Series of Poker. College dorm rooms everywhere turned into late-night poker parlors. While most players were chasing luck, one professional player named Annie Duke stood out because she was studying the game, not just playing it.
 
@@ -66,7 +77,7 @@ The same approaches can be applied to decision making in high-stakes poker, the 
 
 <!-- begin sect1 -->
 
-## Overcoming Decision Roadblocks
+## Overcoming Decision Roadblocks {#sec-overcoming-decision-roadblocks}
 
 We have all been there. We worry about what our teammates will think about our decisions. We worry that the business leaders will think our estimates take too long. We worry the requirements are going to change and we won't be able to adjust. Instead of thinking about how to build a solution, we are stuck worrying. As we learned from Annie Duke, we often don't stall because we don't know ways to solve the problem. We fear the outcome of choosing between the options we know would work.
 
@@ -81,7 +92,7 @@ To recognize patterns and make solid decisions fast, we need to be proactive.  J
 
 <!-- begin sect1 -->
 
-## Building Your Mental Models
+## Building Your Mental Models {#sec-building-your-mental-models}
 
 It's time for you to train your subconscious to make decisions. This will feel exhausting at first. Start small, just like we did with our deliberate practice exercises in Chapter 2.
 
@@ -172,5 +183,12 @@ After a few weeks, review how your decision framework performed. Would you make 
 
 We've focused on training your mind to recognize patterns and apply proven solutions. That's powerful when you're facing familiar problems. But what happens when the challenge isn't choosing between known options, it's finding an approach when no clear option exists? Just as mental models help us make decisions with confidence, we can also use structured frameworks to create new ideas. In the next chapter, we'll explore how to systematically think in new and creative ways.
 <!-- end chapter -->
+
+<!-- AI:BEGIN:end-matter -->
+## Exercises
+- Start a decision journal and capture 5 decisions this week, noting context and outcome.
+- Create one simple decision framework for a recurring choice in your work.
+
+<!-- AI:END:end-matter -->
 
 

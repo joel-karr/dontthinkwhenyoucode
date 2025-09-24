@@ -22,6 +22,17 @@ Where are we going next, and how does this fit in?
 
 ## Overview
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-overview
+- See @sec-identify-unknowns
+- See @sec-apply-templates
+<!-- AI:END:mini-toc -->
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding a diagram mapping business priorities to engineering templates -->
+<!-- AI:END:figure-placeholder -->
+
 This chapter explains how to convert product requests into predictable work, estimate effort using task templates, identify unknowns, and run productive conversations with product and stakeholders so you deliver the right thing with the right effort.
 
 

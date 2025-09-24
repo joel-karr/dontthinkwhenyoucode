@@ -1,4 +1,4 @@
-# Find Your Origin Story
+# Find Your Origin Story {#sec-find-your-origin-story}
 
 Filename: The_Origin.md
 
@@ -71,7 +71,11 @@ What I didn't understand at the time was that this moment was about more than ju
 
 <!-- begin sect1 -->
 
-## The Neuroscience of Why We Continue
+## The Neuroscience of Why We Continue {#sec-the-neuroscience-of-why-we-continue}
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding an illustration of the flow state components (challenge vs skill, feedback loop) -->
+<!-- AI:END:figure-placeholder -->
 
 When most people try programming for the first time, they quit within hours. The syntax feels foreign. The error messages are cryptic. The feedback loop between effort and visible progress feels broken.
 
@@ -94,7 +98,7 @@ Whether you are struggling to build an application for the first time or have al
 
 <!-- begin sect1 -->
 
-## When the Same Work Feels Different
+## When the Same Work Feels Different {#sec-when-the-same-work-feels-different}
 
 Sometimes, even when the code that software engineers are writing looks the same, they can't get into a state of flow. Many software engineers have taken on a small side project for extra cash. Maybe it's enough for a hot tub, or a vacation they've been planning. They've got the skills, the requirements seem clear, and they are confident it will be straightforward. 
 
@@ -145,7 +149,7 @@ His research showed that the conditions for deep engagement are universal, and u
 
 <!-- begin sect1 -->
 
-## Why This Matters More Than Your Salary
+## Why This Matters More Than Your Salary {#sec-why-this-matters-more-than-your-salary}
 
 Csikszentmihalyi's findings have huge implications for engineers. Flow isn’t just an academic concept. It explains why the same coding work sometimes feels effortless and energizing, and other times feels like a grind. When you're building something just for the money, even lots of money, you're engaged in exotelic activity. The reward is external to the work itself. But when you're focused on a challenging technical problem that matches your skill level, providing clear goals and immediate feedback, you enter a flow state.
 
@@ -173,7 +177,16 @@ Becoming a successful software engineer is far more than memorizing syntax and d
 
 <!-- begin sect1 -->
 
-## Finding Your Motivation
+## Finding Your Motivation {#sec-finding-your-motivation}
+
+<!-- AI:BEGIN:mini-toc -->
+
+## In this chapter
+- See @sec-the-neuroscience-of-why-we-continue
+- See @sec-when-the-same-work-feels-different
+- See @sec-discovery_of_flow
+
+<!-- AI:END:mini-toc -->
 
 The following steps are designed to help you connect the concepts in this chapter to your own career. They’ll also give you a foundation we’ll build on in later chapters. Each chapter ends with steps that will help you apply the ideas you learn about right away.
 
@@ -224,6 +237,13 @@ Write at least a few paragraphs. Your origin story will remind you of why you st
 
 <!-- end sect2 -->
 <!-- end sect1 -->
+
+<!-- AI:BEGIN:end-matter -->
+## Exercises
+- Write your origin story and share one paragraph with a peer or in your notebook.
+- Identify one activity this week to deliberately pursue that pushes you just beyond your comfort zone.
+
+<!-- AI:END:end-matter -->
 <!-- begin sect1 -->
 
 ## Up Next: Deliberate Practice

@@ -30,6 +30,9 @@ format:
       dark: slate
     css: styles/custom.css
     favicon: images/favicon.png
-    page-layout: full
+    page-layout: book
     title-block: true
-    toc: true
+    toc:
+      before: false
+      collapsible: true
+      depth: 2

@@ -1,4 +1,4 @@
-# Be Predictable with Task Templates
+# Be Predictable with Task Templates {#sec-be-predictable-with-task-templates}
 
 Filename: Task_Templates.md
 
@@ -31,7 +31,7 @@ In this chapter, we’ll explore a practical tool that builds on your strengths 
 
 <!-- begin sect1 -->
 
-## Six Months to Finish a 10-Month Project
+## Six Months to Finish a 10-Month Project {#sec-six-months-to-finish-a-10-month-project}
 
 Predictability is a competitive advantage. It lets teams focus on building quality applications instead of constantly worrying about unknowns, risks, and immovable timelines. I learned this firsthand in a project where the original estimate was ten months, but we had only six before the deadline.
 
@@ -63,7 +63,7 @@ Often we know we should stick to well proven approaches, but the pressure to del
 
 <!-- begin sect1 -->
 
-## Predictable Teams Move Faster
+## Predictable Teams Move Faster {#sec-predictable-teams-move-faster}
 
 Let's look at a field outside of software where predictability can mean the difference between life and death: firefighting.
 
@@ -86,7 +86,7 @@ We know that predictability makes teams move fast, but the biggest obstacle is o
 
 <!-- begin sect1 -->
 
-## The Innovation Trap
+## The Innovation Trap {#sec-the-innovation-trap}
 
 Software engineers often believe they need to find a new solution to demonstrate their skills. They look for different ways to build things, even when a simple, proven approach already works.
 
@@ -113,7 +113,7 @@ And to my surprise, the bot built on decades of proven approaches won the tourna
 
 <!-- begin sect1 -->
 
-## Introducing Task Templates
+## Introducing Task Templates {#sec-introducing-task-templates}
 
 Task templates can be a secret weapon for great engineers. They allow you take complex product requirements and turn them into actionable tasks that can be executed with confidence.
 
@@ -135,6 +135,15 @@ The key is to be able to group tasks together into components so that you don't 
 <!-- begin sect1 -->
 
 ## Building Task Templates {#sec.buildtasktemplates}
+
+<!-- AI:BEGIN:mini-toc -->
+
+## In this chapter
+- See @sec-six-months-to-finish-a-10-month-project
+- See @sec-predictable-teams-move-faster
+- See @sec-the-innovation-trap
+
+<!-- AI:END:mini-toc -->
 
 Task templates are pre-defined collections of software tasks that represent decisions your team has already made around technical standards. They eliminate the need to re-debate architectural choices for common scenarios and enable reliable estimates. A good task template captures enough information that anyone reading it can understand the actions to take and the decisions have already been made. Task templates are living documents. Update them only when new information proves a better approach, not just because someone has a new preference.
 

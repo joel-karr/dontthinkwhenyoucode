@@ -29,3 +29,10 @@ The weight of the question can be felt by everyone on the team. The product team
 
 
 <!-- end chapter -->
+
+<!-- AI:BEGIN:end-matter -->
+## Exercises
+- Run a 2-hour discovery spike for a current request and capture 3 unknowns with proposed experiments.
+- Create a short questionnaire to use in stakeholder interviews to surface assumptions quickly.
+
+<!-- AI:END:end-matter -->
