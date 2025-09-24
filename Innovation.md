@@ -1,5 +1,12 @@
 # When to Innovate
 
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-getting-a-new-perspective
+- See @sec-using-an-innovation-framework
+- See @sec-building-an-innovation-framework
+<!-- AI:END:mini-toc -->
+
 <!-- begin chapter id="chp.innovation" -->
 
 Filename: Innovation.md
@@ -15,36 +22,34 @@ What will I learn?
 
 What will I be able to do that I couldn't do before?
 
-: You'll be able to approach new challenges with confidence using a structured approach. You will know when it's best to innovate and when it's best to stick to proven solutions. <ed>I edited this slightly so it says "when it's best to" in each case.</ed><author>thanks</author>
+: You'll be able to approach new challenges with confidence using a structured approach. You will know when it's best to innovate and when it's best to stick to proven solutions.
 
 Where are we going next, and how does this fit in?
 
 : This will conclude the individual mastery section and next you will move to how to work with your team and others.
 <!-- end storymap -->
 
-<ed>As I commented at the start of Ch. 3, readers won’t read the book in sequence, so begin with something like this to set the context: "The previous chapters have shown you how to build..." or "From what you have learned in the previous chapters, you can now build..."</ed><author>thanks, updated</author>
+The previous chapters have shown you how to build your core skillset, create predictable task templates, and make solid decisions even in uncertain conditions. What happens when you encounter a business problem that you can't solve?
 
-The previous chapters have shown you how to build your core skillset, create predictable task templates, and make solid decisions even in uncertain conditions. What happens when you encounter a business problem that you can't solve? 
+In movies, the hero might slip, hit their head, and wake up with a genius idea. I wouldn't recommend that approach. Instead, this chapter will show you how to take a systematic approach to innovation—developing new approaches while maintaining focus on the goal. My own turning point came while working to improve the performance of an ecommerce search page. I discovered how using analogies can change your perspective and let you break through tough technical challenges.
 
-In movies, the hero might slip, hit their head, and wake up with a genius idea. I wouldn't recommend that approach. Instead, this chapter will show you how to take a systematic approach to innovation---developing new approaches while maintaining focus on the goal. My own turning point came while working to improve the performance of an ecommerce search page. <ed>I thought this might read better as two sentences, so I removed the "where".</ed><author>agreed. thanks</author> I discovered how using analogies can change your perspective and let you break through tough technical challenges.
+## Getting a New Perspective {#sec-getting-a-new-perspective}
 
-## Getting a New Perspective
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding an analogy map or PAGES framework visual -->
+<!-- AI:END:figure-placeholder -->
 
-<ed>This heading is vague and assumes knowledge of task templates from two chapters ago. Focus instead on what you actually cover: getting a new perspective through analogies.</ed> <author>how about "Getting a new Perspective"?</author>  
+Back in 2010, I was working with a experienced database administrator on a complex SQL query for a high-traffic ecommerce site. Tens of thousands of restaurants were on the platform, and daily updates were causing lock waits and unstable performance. We spent months using our standard approaches to improve performance: running frequent maintenance scripts, tuning execution plans, and creating indexes. The core issue was that we had a highly normalized database which meant anytime we returned a collection of restaurants, we had to join over fifteen tables. Updating any restaurant meant potentially locking those tables and quickly creating a backlog of pending search queries.
 
-Back in 2010, I was working with a experienced database administrator on a complex SQL query for a high-traffic ecommerce site. <ed>Not sure what a "strong database administrator" is. Maybe use "experienced" or "seasoned" instead?</ed><author>updated to experienced</author> Tens of thousands of restaurants were on the platform, and daily updates were causing lock waits and unstable performance. We spent months using our standard approaches to improve performance: running frequent maintenance scripts, tuning execution plans, and creating indexes. The core issue was that we had a highly normalized database which meant anytime we returned a collection of restaurants, we had to join over fifteen tables. Updating any restaurant meant potentially locking those tables and quickly creating a backlog of pending search queries.
+The database administrator started building views to query against, but we still couldn't reach the target response time. We realized that we would need to find a new approach.
 
-The database administrator started building views to query against, but we still couldn't reach the target response time. We realized that we would need to find a new approach. 
+We started playing a game that turned into an excellent catalyst for innovative solutions. A person on our team loved to describe what we were doing by thinking up some wild and crazy analogies. For example, he would turn every component of our solution into different positions on a basketball team, picking famous players based on their attitudes. Or he would explain a feature about referrals as if it was a Tupperware pyramid scheme. The shifts in perspective were exactly what we needed to unlock creative ideas.
 
-<ed>The first sentence below reads like a summation, when instead it's starting things out. Let's rephrase it. How about: "We started playing a game that turned into an excellent catalyst for innovative solutions" or "...that helped us think up creative solutions"?</ed><author>updated</author>
+We started by defining what success looked like: sub-second response time, ability to filter on twelve different fields, and returning full restaurant objects. Nothing else was off-limits.
 
-We started playing a game that turned into an excellent catalyst for innovative solutions. A person on our team loved to describe what we were doing by thinking up some wild and crazy analogies. <ed>It might be simpler to say: "...loved to describe what we were doing by thinking up some wild and crazy analogies."</ed><author>thanks, that reads much better</author> <ed>Begin this next sentence with, "For example, he would..."?</ed><author>added</author> For example, he would turn every component of our solution into different positions on a basketball team, picking famous players based on their attitudes. Or he would explain a feature about referrals as if it was a Tupperware pyramid scheme. The shifts in perspective were exactly what we needed to unlock creative ideas. <ed>"to..." what? Feel like you were getting somewhere? Think of a new approach? This sentence seems to want an ending like that.</ed><author>how about... to unlock creative ideas?</author>
+After a few attempts at analogies that didn't quite hit the mark, we landed on imagining the search functionality was a popular dating game show from the late 1990s on MTV called *Singled Out*. The show started with 50 contestants all hoping to win a date with the central player called the "Picker". The Picker couldn't see the contestants directly. Instead, each time the Picker stated a preference—like their favorite sport is basketball—contestants who didn't match walked off the stage in single file past the Picker. Round by round, the large group was filtered down to a final few contestants that the Picker would get to see and pick a favorite for a date.
 
-We started by defining what success looked like: sub-second respond time, ability to filter on twelve different fields, and be able to return <ed>Either say "being able to return" or just "returning".</ed><author>corrected</author> full restaurant objects. Nothing else was off-limits.
-
-After a few attempts at analogies that didn't quite hit the mark, we landed on imagining the search functionality was a popular dating game show from the late 1990s on MTV<ed>I had to look this show up since I'd never heard of it, nor did I have MTV, so maybe it would be good to insert here: "from the late 1990s on MTV"? That is, I assume you're referring to the original and not the 2020 reboot on Quibi.</ed><author>added the part above, a 2020 reboot sounds scary, certainly a show that belonged in the 1990's lol</author> called *Singled Out*. The show started <ed>Stick to the simple past tense when you describe the show's actions, since it's all in the past now.</ed><author>updated</author> with 50 contestants all hoping to wind a date with the central player called the "Picker". <ed>I capped the person's title and set it in quotes here since that's their title on the show. We can cap it without quotes from here on out.</ed> The Picker couldn't see the contestants directly. Instead, each time the Picker sated a preference---like heir favorite sport is basketball---contestants who didn't match walked off the stage in a singel file past the Picker. Round by round, the large group was filtered down to a final few contestants that the Picker would get to see and pick his favorite for a date.
-
-As soon as the Picker would answer a question---like their favorite sport---the contestants who didn't match would start walking out in single file<ed>"walking out in single file" is simpler</ed><author>updated</author>. During a conversation about how the show's host could catch cheating by contestants who try to change their answers to stay in the game<ed>At what? You mean if a contestant falsely claimed their favorite sport in order to stay in the game and hopefully date the Picker?</ed>, we thought maybe the host <ed>The host?</ed><author>udpated</author> already had contestant numbers with their answers to each question on a single card. That way they could quickly see which contestants should remain.
+As soon as the Picker would answer a question—like their favorite sport—the contestants who didn't match would start walking out in single file. During a conversation about how the show's host could catch cheating by contestants who try to change their answers to stay in the game, we thought maybe the host already had contestant numbers with their answers to each question on a single card. That way they could quickly see which contestants should remain.
 
 | *Singled Out* Game Show               | Restaurant Search Problem                           |
 |---------------------------------------|-----------------------------------------------------|
@@ -55,27 +60,21 @@ As soon as the Picker would answer a question---like their favorite sport---the 
 
 Our system, built with domain-driven design, always dealt with full restaurant objects as XML. That meant updating restaurants by parsing objects from XML and splitting them into many SQL tables, then reconstructing the same XML again with complex joins for our search. It felt wasteful. In our analogy, that would be like the host having a card with every detail for each contestant. How could they possibly know who was eliminated quickly if the data was only stored on individual cards?
 
-For our restaurant search site<ed>Add "site"?</ed><author>added</author>, we realized that we already knew the full set of filters including things like cuisine or star rating<ed>Such as what?</ed><author>added detail</author>, so instead of going to different normalized tables, we could have a single flat table with only the items they could filter!
+For our restaurant search site, we realized that we already knew the full set of filters including things like cuisine or star rating, so instead of going to different normalized tables, we could have a single flat table with only the items they could filter.
 
-NoSQL databases and Lucene were gaining in popularity at the time, but certainly not widely used enough for us to risk the most critical parts of our system by relying on them<ed>Maybe "by relying on them" is clearer?</ed><author>updated</author>. 
+NoSQL databases and Lucene were gaining in popularity at the time, but certainly not widely used enough for us to risk the most critical parts of our system by relying on them.
 
 That's when it clicked. We could have the best of both worlds by building a SQL table that had complex objects flattened into fields that we would use for filters and the full restaurant XML object stored in a column as a large XML string. This allowed us to query a single table and still get back all the data we needed for restaurants that matched the filters.
 
-<ed>I don't really follow the analogy between the dating game and the problems you were solving with your site. Something about restaurant filters matching the Picker's preferences? I think you need to describe the issue with your ecommerce site and how the dating show game was "like" what you needed to figure out. What made you think, “Oh that’s like that old dating game show!”? After spelling that out, then go into the workings of the game and how that process made you think of a solution to your problem. Perhaps a table comparing the problems you were tackling and the game show scenarios might help.</ed><author>I restructured the section and added a table, hopefully it aligns better now</author>
+By using analogies, you can change your perspective to think of new ways to solve technical challenges.
 
-<ed>You also need to describe the game show more fully. As I understand it (from Wikipedia), The Picker was presented with a list of qualities about all of the contestants, who were visible to the audience but not to the Picker: things like their physical attributes, their interests, etc. After the Picker selected a quality that was not to his liking, he saw the contestants he was eliminating. (I'm assuming a male Picker and single female contestants, for sake of simplicity, even though the show played the game with the genders reversed in each (?) episode. Maybe there's a way to describe the action and keep things gender neutral.)</ed><author>restructed above</author>
+## Using an Innovation Framework {#sec-using-an-innovation-framework}
 
-By using analogies, you can change your perspective to think of new ways to solve technical challenges.  <ed>The second sentence does not obviously follow from what you've just been writing. Fold it into the next section instead.</ed><author>removed the sentence about PAGES framework</author>
+As a student in the very first iMBA class at the University of Illinois, I was excited to take a course on Innovation with Professors Jeffrey Loewenstein and Jack Goncalo. Like many, I always had been told that creativity or innovation was a skill that people are born with or without.
 
-## Using an Innovation Framework
+Their central idea was that creativity isn't a rare gift. It's a process that can be trained like any other skill. When they introduced their research on shifting perspectives, I immediately thought back to the breakthrough we had with the restaurant search site. It turns out that using analogies was the simplest version of what Prof. Loewenstein had formalized into a structured framework.
 
-As a student in the very first iMBA class at the University of Illinois, I was excited to take a course on Innovation with Professors Jeffrey Loewenstein and Jack Goncalo. Like many, I always had been told that creativity or innovation was a skill that people are born with or without. 
-
-During the first class, the profressors walked though their years of research to quickly dispell this myth. <ed>The first class didn't dispel the myth through years of research; the profs' own years of research made them come to that realization. End the sentence after "this myth." Work in how "years of research" brought them to the lesson you were learning in class.</ed><author>does the above work now?</author> Their central idea was that creativity isn't a rare gift. It's a process that can be trained like any other skill. When they introduced their research on shifting perspectives, I immediately thought back to the breakthrough we had with the restaurant search site<ed>site?</ed><author>added</author>. It turns out that using analogies was the simplest version of what Prof. <ed>Shorten this from here on to just Prof.</ed><author>updated here and below</author> Loewenstein had formalized into a structured framework. 
-
-In his book with Matthew A. Cronin, *The Craft of Creativity* <author>should I use a footnote for a citation?</author>, Prof. Loewenstein described an approach where you first identified each piece of a scenario and then systematically swapped them out to see how it may change your perspective.
-
-<ed>I don't see The Craft of Creativity listed in either pp-books.xml or bibliography.xml, per p. 43 of the Pragmatic Markup Guide. Read pp. 44-45 to see how to add a bibliographic entry to your local/local-bib.xml file.</ed>
+In his book with Matthew A. Cronin, *The Craft of Creativity*, Prof. Loewenstein described an approach where you first identified each piece of a scenario and then systematically swapped them out to see how it may change your perspective.
 
 His framework is captured by the acronym PAGES:
 
@@ -87,7 +86,7 @@ His framework is captured by the acronym PAGES:
 
 Although designed as a general creativity tool, the framework seems tailor-made for software engineering. We already build systems in ways that group information like this.
 
-Let's see how the PAGES framework might apply to a software engineering challenge. 
+Let's see how the PAGES framework might apply to a software engineering challenge.
 
 Take an e-commerce website: search results pages usually show some number of items with pagination or continuous scroll. This setup creates a bias towards items at the top of the page, even if they're not the best fit for the customer. What if we wanted to change this customer experience?
 
@@ -105,27 +104,23 @@ We can start by mapping the current state of each piece:
 
 Once we have listed out all our different pieces, we can experiment by swapping them out to see how it changes our perspective.
 
-For example, what if the results page only displayed one item instead of a list?  That might force the users to give more information about what they want instead of scrolling. Changing that part forces us to rethink filtering. Could we use a large language model to guide filtering instead of traditional options with predefined fields? This would make the experience for the user more like <ed>Insert: "more like"?</ed><author>added</author> a chat where they continue the conversation until they find an option they like.
+For example, what if the results page only displayed one item instead of a list?  That might force the users to give more information about what they want instead of scrolling. Changing that part forces us to rethink filtering. Could we use a large language model to guide filtering instead of traditional options with predefined fields? This would make the experience for the user more like a chat where they continue the conversation until they find an option they like.
 
 We may have found a better solution but let’s swap out another item. What if we changed our self-concept to be a salesperson. By showing a single option, we may lose the opportunity to sell multiple restaurants.
 
-Let's try using self-concept to adjust our perspective again. What if we think like a salesperson and we look at this new solution? You may realize that by only showing a single option, you may lose the chance for the user to browse past other things. Let's add a smaller section that has <ed>"has" is probably better</ed><author>updated</author> secondary recommendations for the user. The LLM would still drive the results, but now we have the top result and then other recommended results. 
+Let's try using self-concept to adjust our perspective again. What if we think like a salesperson and we look at this new solution? You may realize that by only showing a single option, you may lose the chance for the user to browse past other things. Let's add a smaller section that has secondary recommendations for the user. The LLM would still drive the results, but now we have the top result and then other recommended results.
 
-Each shift <ed>In what exactly? I'm not seeing what is shifting. Maybe: "Each what-if scenario..."?</ed> gave us a new perspective and helped us create a new solution. 
+Each shift gave us a new perspective and helped us create a new solution.
 
-## Building an Innovation Framework for Software Engineers
+## Building an Innovation Framework for Software Engineers {#sec-building-an-innovation-framework}
 
-<ed>Start the heading with "Building an..." to match the other "exercise" sections in your chapters. Also, do we need to include "for Software Engineers"?</ed><author>added</author>
-
-We can take the lessons that we have learned from analogies and the PAGES framework to create a targeted approach for software engineering. 
+We can take the lessons that we have learned from analogies and the PAGES framework to create a targeted approach for software engineering.
 
 ### Step 1: Define the Challenge
 
 Software engineering often involves trade-offs. One fix may solve a problem but create a new one, and teams can lose sight of the original goal. Start off by writing down the specific technical challenge you are looking to solve. Throughout the process, check back with your original challenge to stay on course.
 
 #### Example: Defining a Routing Challenge
-
-<ed>Give each example header a title, as you did in Ch. 3. What about here, "Example: Route Phone Calls"? Or say more if you think it helps.</ed>
 
 Challenge: Route phone calls to an agent queue in under one second based on both department and brand. The system connects to multiple CRMs, each with a 3-5 second response time.
 
@@ -140,8 +135,6 @@ We need to be able to call an API and return the department and the brand. We ha
 Our Basic API task template includes an API that has read and write endpoints for a data source. 
 
 ![Task Templates Example](images/task_template_example.pdf)
-
-<ed>Please supply ths image so we can consider this chapter complete for Editorial Review purposes.</ed><author>added the same example image from the task template chapter for now.</author>
 
 ### Step 3: Identify the Shortfalls
 
@@ -175,8 +168,6 @@ In our case, we realized our cache could still lag behind the CRMs. If a departm
 
 We could continue swapping out parts of our task template to see if we could find a solution, but simply having a different data storage type wasn't going to get us to the solution we needed.
 
-What if we used an analogy of passengers moving through airport security trying to get to their gate? <ed>I made this a question.</ed><author>thanks</author>
-
 At security, each passenger scans their boarding pass. The system checks their airline and terminal, and routes them toward the right gate. This is like our fast initial routing using the cache—most of the time it’s correct, and it keeps traffic flowing.
 
 But sometimes gates change at the last minute. If the airline waited only until check-in to fix this, travelers would miss their flights. Instead, there are monitors past security that display the latest gate info. Passengers are already moving, but they still get an update if something changes.
@@ -189,8 +180,6 @@ Let's check back again with our challenge definition from step 1.
 
 * Our routing is under one second even if it will not always be perfect
 * We can support multiple CRMs even if they don't trigger fast enough to always update our cache
-
-The “security line + monitor” analogy gave us a mental model that balanced speed and reliability.
 
 ### Putting It All Together
 
@@ -206,9 +195,13 @@ This five-step process gives you a practical innovation toolkit:
 
 5. Use Analogies – Shift perspectives when you get stuck.
 
-## Up Next: Applying Mastery with AI Code Generation
+## Up Next: Applying Mastery with AI Code Generation {#sec-up-next-ai}
+<!-- AI:BEGIN:end-matter -->
+## Exercises
+- Apply the PAGES framework to a current project challenge and list 3 potential swaps.
+- Prototype one small analogy-driven idea and evaluate its feasibility.
 
-<ed>Do you mean "applying mastery"?</ed><author>fixed</author>
+<!-- AI:END:end-matter -->
 
 When new developer tools like AI code generators become widely used, does everything change?
 
