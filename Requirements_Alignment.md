@@ -35,4 +35,4 @@ Templates: CRUD (recommendation seed), Background job (similarity calc), API (se
 Unknowns: similarity algorithm, freshness threshold.
 
 ## Closing Bridge
-Next: Preserve speed by preventing polish bloat (Ship Over Polish). 
+Next: Apply proportional effort discipline (Right-Sized Engineering). 

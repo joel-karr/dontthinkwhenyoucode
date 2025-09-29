@@ -180,7 +180,7 @@ What will I learn?
 What will I be able to do that I couldn't do before?
 : Produce lean specs that survive estimation pressure and avoid rework loops.
 Where are we going next, and how does this fit in?
-: After clarity and value anchoring, we protect momentum by shipping earlier (Ship Over Polish).
+: After clarity and value anchoring, we protect momentum by right-sizing effort (Right-Sized Engineering).
 
 Intro Hook Story:
 : Estimation meeting stalls; reframing vague “improve recommendations” into measurable slice resets the room.
@@ -193,24 +193,24 @@ Closing Hook:
 
 ---
 
-## Ship Over Polish (`Ship_Over_Polish.md`)
+## Right-Sized Engineering (`Ship_Over_Polish.md`)
 Why do I want to read this?
 : You’ve watched features linger in review or stall on “just one more tweak,” losing momentum and impact.
 What will I learn?
 : Practical heuristics for deciding when something is “good enough,” scope triage, and tactics to compress feedback loops.
 What will I be able to do that I couldn't do before?
-: Ship smaller, reversible increments with instrumentation and a documented polish backlog.
+: Ship smaller, reversible increments with instrumentation and a documented improvement backlog.
 Where are we going next, and how does this fit in?
 : Fast iteration raises decision load—so we refine judgment (Instant Decisions) or, if already covered, continue toward innovation.
 
 Intro Hook Story:
-: Feature endlessly sanded; competitor launches lean version locking user mindshare.
+: Feature endlessly refined while a lean competitor release captures user mindshare.
 Research Story:
 : Satisficing vs optimizing + cost-of-delay framing.
 Lesson Summary:
-: Constrain perfection to enduring seams; front-load reversibility + observability.
+: Scale effort to impact & durability; reserve deep craft for enduring seams; front-load reversibility + observability.
 Closing Hook:
-: “Speed exposes decision fatigue—next we level up rapid judgment.”
+: “Right-sized execution exposes decision fatigue—next we level up rapid judgment.”
 
 ---
 

@@ -13,7 +13,7 @@
 - [Deliberate Practice](Deliberate_Practice.md)
 - [Task Templates](Task_Templates.md)
 - [Requirements & Alignment](Requirements_Alignment.md)
-- [Ship Over Polish](Ship_Over_Polish.md)
+- [Right-Sized Engineering](Ship_Over_Polish.md)
 - [Instant Decisions](Instant_Decisions.md)
 - [Innovation](Innovation.md)
 - [The Core Doesn’t Change](The_Core_Doesnt_Change.md)

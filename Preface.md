@@ -35,7 +35,7 @@ Build your personal operating system: motivation, deliberate improvement, reusab
 * Deliberate Practice – Converting friction into a training loop.
 * Task Templates – Turning recurring work into predictable blocks.
 * Requirements & Alignment – Locking clarity and value before investing.
-* Ship Over Polish – Protecting momentum with “good enough” heuristics.
+* Right-Sized Engineering – Matching effort to real business impact.
 * Instant Decisions (Mental Models) – Fast probabilistic judgment under ambiguity.
 * Innovation – Systematic perspective shifts when templates fall short.
 * The Core Doesn’t Change – Applying enduring thinking skills alongside AI tools.
@@ -60,7 +60,7 @@ You can read it cover to cover, following the progression from personal mastery,
 Or jump straight to a current pain:
 
 * Requirements churn or missed expectations? Read Requirements & Alignment.
-* Slow delivery or endless polishing? Ship Over Polish.
+* Slow delivery or endless polishing? Right-Sized Engineering.
 * Friction in reviews / misaligned mental models? Shared Cognition.
 * Want predictable delivery forecasting? Task Templates.
 * Decision fatigue under ambiguity? Instant Decisions.

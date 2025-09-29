@@ -1,4 +1,4 @@
-# Ship Over Polish
+# Right-Sized Engineering
 
 <!-- Refocused from Embracing_Imperfection.md -->
 
@@ -39,4 +39,4 @@ Feature: Recommendation tiles MVP.
 Stop polishing when: tiles render, CTR tracked, fallback safe, algorithm job stable for 48h, instrumentation logs errors.
 
 ## Closing Bridge
-With release momentum established, we address rapid judgment calls: next is Instant Decisions.
+With right-sizing discipline in place, we turn to rapid judgment under ambiguity: next is Instant Decisions.
