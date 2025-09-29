@@ -1,29 +1,57 @@
 /* Custom Quarto book styles - minimal, modern adjustments */
-:root{
+/* Root design tokens */
+:root {
   --brand-color: #0b5cff;
   --muted: #6c757d;
-  --heading-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --heading-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --body-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --mono-font: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
+  --base-font-size: 17px; /* ~1.0625rem; good readability on desktop */
 }
+
+html { font-size: var(--base-font-size); }
 
 /* Page layout tweaks */
 body {
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  line-height: 1.65;
+  font-family: var(--body-font);
+  line-height: 1.6; /* slight tighten from 1.65 for better rhythm with 17px */
   color: #222;
+  font-weight: 400; /* ensure normal weight so capitals don't appear artificially bolder */
+  -webkit-font-smoothing: antialiased; /* crisper diagonals */
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'kern','liga','clig','calt';
 }
 
 /* Headings */
 h1, h2, h3, h4 {
   font-family: var(--heading-font);
   color: #0b1b3a;
-  letter-spacing: -0.5px;
+  font-weight: 600; /* Inter has balanced 600 for headings */
+  letter-spacing: -0.25px; /* reduce tightening to avoid heavy wide letters like W */
+  line-height: 1.18;
 }
+
+h1 { font-size: 2.15rem; }
+h2 { font-size: 1.55rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.05rem; }
+
+/* Paragraph spacing for book-like readability */
+p { margin-top: 0; margin-bottom: 0.9em; }
+
+/* Lists tighten horizontal rhythm slightly */
+ul, ol { margin-top: 0; margin-bottom: 1em; }
 
 /* Make code blocks more readable */
 pre, code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
-  font-size: 0.95em;
+  font-family: var(--mono-font);
+  font-size: 0.92em; /* slight reduction; keeps code visually secondary */
+  line-height: 1.4;
 }
+
+pre { padding: 0.85em 1em; border-radius: 6px; }
+
+code { background: rgba(0,0,0,0.04); padding: 0.15em 0.4em; border-radius: 4px; }
 
 /* Tweak the TOC */
 .qtoc {
@@ -48,7 +76,18 @@ pre, code {
 }
 
 /* Improve images in PDFs/HTML */
-img {
-  max-width: 100%;
-  height: auto;
-}
+img { max-width: 100%; height: auto; }
+
+/* Small utility: improve readability for blockquotes */
+blockquote { border-left: 4px solid var(--brand-color); padding-left: 1rem; color: #444; font-style: italic; }
+
+/* Ensure tables scale and have consistent font */
+table { font-size: 0.97rem; }
+th { font-weight: 600; }
+
+/* Anchor link hover clarity */
+a { color: var(--brand-color); }
+a:hover { text-decoration: underline; }
+
+/* Fine-tune letter-spacing only for uppercase headings if needed */
+h1, h2, h3, h4 { text-rendering: optimizeLegibility; }
