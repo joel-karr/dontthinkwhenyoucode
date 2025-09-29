@@ -4,35 +4,29 @@ Filename: Requirements_Gathering.md
 
 <!-- begin chapter id="chp.solve_real_problems" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
 
-: Maybe you've spent hours building something, only to find out it wasn't what anyone actually wanted—or the requirements changed halfway through. This chapter is about figuring out what really needs to be built before you start coding, and learning how to ask the kinds of questions that get to the heart of what people actually need.
+The tension of the pending question can be felt by everyone in the small conference room. The lead product manager, Maya, is already bracing for pushback, but she asks it anyways. 
 
-What will I learn?
+How long will "IT" take?
 
-: You'll learn how to pull real requirements out of vague requests, spot hidden assumptions and constraints, and guide conversations with stakeholders so you can uncover what actually needs solving.
+The question itself is extremely simple, but it represents so many unknown variables that it overwhelms the four software engineers in the room. 
 
-What will I be able to do that I couldn't do before?
-
-: You'll be able to ask the right questions to turn ideas into clear technical specs, and help everyone agree on what "done" means---before anyone writes a single line of code. You'll also build stronger relationships with the product team and end users, so they'll include you earlier in brainstorming. This leads to less rework, better collaboration, and a more effective software engineering team.
-
-Where are we going next, and how does this fit in?
-
-: When you understand the buisness goals and strategy, you can work more effectively with your team. In the next chapter we will learn how to create team shared mental models to avoid rework or gaps in functionality.
-<!-- end storymap -->
+Maya had spent days trying to document every detail of what was needed. She had pixel perfect mockups that showed exactly how the new feature should look. There were flow diagrams that should each action for different types of users. The new feature would allow users the ability to easily see other restaurants they may want to try based on their previous purchase history. It would instantly boost revenue for the company and  
 
 
-The weight of the question can be felt by everyone on the team. The product team is already bracing for pushback but they ask it anyways. How long will "IT" take?
+
+As the sofware team nervously glances around to each other, one person decides to speak up.
+
+A software engineer named Eric finally gives into the pressure and responds with the same safe question that they always use. 
+
+"When do we need it by?"
+
+
+
+
 
 
 
 
 <!-- end chapter -->
 
-<!-- AI:BEGIN:end-matter -->
-## Exercises
-- Run a 2-hour discovery spike for a current request and capture 3 unknowns with proposed experiments.
-- Create a short questionnaire to use in stakeholder interviews to surface assumptions quickly.
-
-<!-- AI:END:end-matter -->

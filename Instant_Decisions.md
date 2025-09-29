@@ -4,24 +4,6 @@ Filename: Instant_Decisions.md
 
 <!-- begin chapter id="chp.mental_models" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You feel overwhelmed by the number of decisions required for even simple features and want to understand how senior engineers seem to move through complex problems with confidence.
-
-What will I learn
-
-: How mental models make repeated decisions easier, why experts read code by patterns rather than line-by-line, how decision frameworks eliminate analysis paralysis, and how to build your personal decision matrices.
-
-What will I be able to do that I couldn't do before?
-
-: You'll navigate large codebases quickly by recognizing architectural patterns, make architectural decisions by relying on frameworks, and reduce the cognitive overhead of routine technical choices.
-
-Where are we going next, and how does this fit in?
-
-: Mental models help you think better individually, but complex systems require visual communication. Next, you'll learn diagramming techniques that make complex designs clear to both you and your team.
-<!-- end storymap -->
-
 <!-- begin sect1 -->
 
 <!-- AI:BEGIN:mini-toc -->
@@ -33,9 +15,15 @@ Where are we going next, and how does this fit in?
 
 Task templates reduce the number of small decisions that you face when building software. But even with task templates, software engineering is still full of judgement calls. Early in your career, the challenge is finding any possible way to build a feature. As you progress, the challenge shifts to choosing the best approach from multiple viable options. 
 
+<ed>Visual: Add a callout-note summarizing stages (Survival -> Expansion -> Selection) with one-line focus per stage.</ed>
+
+<ed>Define mental model early: insert a concise definition ("a simplified representation of reality you use to predict outcomes") to ground later examples.</ed>
+
 That's where mental models come in. In this chapter, we'll explore how to build and apply mental models so you can recognize patterns, navigate large code bases and make confident decisions without feeling overwhelmed.
 
 ## Applying Mental Models to Reduce Decisions {#sec-applying-mental-models}
+
+<ed>Diagram placeholder: Pattern Scan Flow (Codebase -> Pattern Recognition -> Model Mapping -> Decision) using a simple flowchart.</ed>
 
 <!-- AI:BEGIN:figure-placeholder -->
 <!-- Figure placeholder: consider adding a diagram showing decision flow or a mental model map -->
@@ -49,6 +37,8 @@ They were certain that it would be faster to rewrite because it was going to tak
 
 Without much thought, I said, "Don't use your eyes to see code."
 
+<ed>Amplify memorability: briefly unpack this aphorism with a parallel construction ("Don't read for lines; scan for patterns") to cement the concept.</ed>
+
 It sounded crazy or maybe some sort of deep insight. But I was suggesting something simple. We can let our subconscious skim through hundreds of lines of code only trying to identify patterns.  Then we can use those patterns to apply our existing mental models to make decisions. The issue wasn't that they didn't have knowledge or understanding, it was that they didn't know how to make decisions easily.
 
 The team then started looking through code only for things that didn't fit the patterns they expected. The code started to tell a story that was far more than just what the code did. The different patterns and standards made it clear that parts had been written during different time periods. Some had been partially refactored while others remained almost as mini time capsules. Having this awareness allowed the team to group areas of the system and understand not only what they did, but how they could be changed.  
@@ -56,11 +46,15 @@ The team then started looking through code only for things that didn't fit the p
 From there, the team looked at the task templates and thought about how they could deliver the same functionality, but with less modern frameworks. Instead of using Azure Cognitive Search, they could use SQL queries with proper database indexes for performance. They didn't need to rebuild the entire front end in React, the existing Classic ASP pages could be adjusted. Aligning the code bases with their mental models allowed them to quickly evaluate decisions and focus on what drove business value.
 
 The shift to pattern recognition gave the team a way forward, but it also highlights something even bigger. There is far more to software than writing code. Success relies on the ability to make constant decisions under uncertainty. That same type of challenge shows up in many different domains. There are surprising similarities between building software and the game of poker. One of the most exciting professional poker players turned her experience playing poker into research on how people can make decisions better.
+
+<ed>Callout-tip: Bridge box foreshadowing poker decision parallels (Hidden Information, Probabilistic Reasoning, Emotional Control).</ed>
 <!-- end sect1 -->
 
 <!-- begin sect1 -->
 
 ## PhD Student Turned Poker Player {#sec-phd-student-turned-poker-player}
+
+<ed>Table: Poker Concept | Engineering Analog (Pot Odds -> Opportunity Cost, Tilt -> Emotional Overreaction to Prod Incident).</ed>
 
 In the early 2000s, poker exploded in popularity after an amateur player named Chris Moneymaker --- yes, that's his real name --- won the World Series of Poker. College dorm rooms everywhere turned into late-night poker parlors. While most players were chasing luck, one professional player named Annie Duke stood out because she was studying the game, not just playing it.
 
@@ -72,12 +66,18 @@ After winning over $4 million, Duke left poker in 2012 to return to her research
 
 Duke says we shouldn't waste time and instead pick one. She calls this the "menu strategy". She relates it to when you have already done the hard part of picking a restaurant, but then you want to agonize over two options on the menu. Instead, you should just pick one without over thinking it. Duke also focuses on how we should not tie our decisions to results. We should hold ourselves accountable to the decisions we make with the given context, but not the specific result. There are many times that we hesitate to make decisions because we are afraid that someone will blame a negative result on us. What is important is that we make good decisions based on the information we have at the time, and as information changes, we adjust.
 
+<ed>Callout-important: Principle – Judge process quality, not single outcome variance.</ed>
+
+<ed>Compression: this paragraph repeats "decisions" heavily—consider a 30% cut plus a bolded takeaway sentence: "Optimize for process quality, not single-hand outcomes."</ed>
+
 The same approaches can be applied to decision making in high-stakes poker, the general business world, or software engineering.
 <!-- end sect1 -->
 
 <!-- begin sect1 -->
 
 ## Overcoming Decision Roadblocks {#sec-overcoming-decision-roadblocks}
+
+<ed>Visual: Timeline graphic placeholder showing Decision (T0) -> Lag -> Confounders -> Outcome.</ed>
 
 We have all been there. We worry about what our teammates will think about our decisions. We worry that the business leaders will think our estimates take too long. We worry the requirements are going to change and we won't be able to adjust. Instead of thinking about how to build a solution, we are stuck worrying. As we learned from Annie Duke, we often don't stall because we don't know ways to solve the problem. We fear the outcome of choosing between the options we know would work.
 
@@ -87,18 +87,28 @@ This is the same mechanism that magicians rely on to fool us. When a magician se
 
 The true problem here is that we haven't properly trained our subconscious to make decisions. Often the results of decisions don't become apparent for weeks or months after you made them. By that time, numerous other variables have distorted the connection between the original decision and the outcome. A feature may not have been successful because the market shifted, or because it didn't have proper training and change management. We are constantly trying to determine new approaches without ever knowing if we made a good decision previously.
 
+<ed>Suggest adding a short illustrative timeline (Decision -> Lag -> Confounders -> Outcome) as a visual/table to reinforce delayed feedback challenge.</ed>
+
 To recognize patterns and make solid decisions fast, we need to be proactive.  Just like how we trained our skills and built out task templates to common approaches and reliable estimates, we need to train our subconscious to make decisions we can trust.
+
+<ed>Checklist callout: Components to train (Capture Context, Categorize Pattern, Apply Framework, Retrospect, Refine Rule).</ed>
 <!-- end sect1 -->
 
 <!-- begin sect1 -->
 
 ## Building Your Mental Models {#sec-building-your-mental-models}
 
+<ed>Process diagram placeholder: Steps 1–6 circular or numbered ladder for quick visual recall.</ed>
+
 It's time for you to train your subconscious to make decisions. This will feel exhausting at first. Start small, just like we did with our deliberate practice exercises in Chapter 2.
+
+<ed>Cross-link: add explicit reference label to Chapter 2 section on training journal to reinforce reuse of earlier mechanism.</ed>
 
 <!-- begin sect2 -->
 
 ### Step 1: Start a Decision Journal
+
+<ed>Table: Field | Why It Matters (Question, Context, Chosen Option, Confidence, Rule Candidate).</ed>
 
 Add a section to your notebook for decisions.  When you find yourself making a technical choice, write it down.
 Include any information that influenced your decision. Don't overthink it. We will come back to these later.
@@ -141,6 +151,8 @@ Discuss which items had the biggest impact on the overall decision. This is abou
 
 ### Step 4: Create Decision Frameworks
 
+<ed>Matrix placeholder: Decision Type | Default Rule | Exceptions | Trigger to Reevaluate.</ed>
+
 Here is where you get to create a cheat sheet for your subconscious. Take the decisions you have made and identify the most important pieces of context. Ask yourself if you can make a rule to almost always apply that decision. 
 
 Examples:
@@ -161,6 +173,8 @@ Examples:
 
 ### Step 5: Practice Pattern Recognition
 
+<ed>Callout-note: Suggest 10-minute daily skim drill (Pick unfamiliar module; log 3 patterns + 1 anomaly).</ed>
+
 As you build your decision frameworks, look for patterns that help you identify the context quickly. Spend some time skimming unfamiliar code. Don't try to understand every line. Look for patterns that you can categorize and use to make decisions.
 
 Now look for patterns outside the code. Are there types of requests that are always under time pressure? Is there a way to identify which requests value reliability over performance?
@@ -171,6 +185,8 @@ The goal is to recognize these patterns and be able to map them to your context.
 <!-- begin sect2 -->
 
 ### Step 6: Make Continuous Improvements
+
+<ed>Retrospective table: Framework Rule | Times Applied | Success Rate | Adjust? (Y/N).</ed>
 
 Next time you come to a decision point, apply your framework first. Consider if there are any obvious reasons why you shouldn't use that decision. Instead of trying to pick between a few different options, if your decision framework gives you a viable solution, go with it.
 

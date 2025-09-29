@@ -2,26 +2,11 @@
 
 Filename: The_Core_Doesnt_Change.md
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You're concerned about how AI and automation might affect your career as a software engineer. You've seen the headlines about AI writing code and replacing developers, and you want clarity on which skills remain valuable.
-
-What will I learn?
-
-: Why the fundamental thinking skills you've built become more valuable as AI tools advance, and how to leverage AI while focusing on uniquely human strengths.
-
-What will I be able to do that I couldn't do before?
-
-: Adapt confidently to new AI tools, prioritize high-value learning, and position yourself to thrive as the industry evolves.
-
-Where are we going next, and how does this fit in?
-
-: This chapter is the culmination of our journey: the mental models and practices from earlier chapters remain the core of good engineering practice even as tools change.
-
-<!-- end storymap -->
-
 Software engineering is always changing. It is easy to feel overwhelmed trying to chase every new framework or language. But the biggest shifts haven't been about syntax or libraries---they have been in the way we communicate with computers.
+
+<ed>Visual: Add a callout-note framing thesis as "Each era = tighter human → machine intent translation."</ed>
+
+<ed>Unify thesis: add a one-line framing statement ("Every major leap is a communication compression layer") to prime later historical examples.</ed>
 
 <!-- AI:BEGIN:mini-toc -->
 ## In this chapter
@@ -99,6 +84,10 @@ Each time, the same pattern emerged:
 * Expectations for software skyrocketed
 * Demand for software engineers grew
 
+<ed>Cycle diagram placeholder: Communicate -> Accelerate -> Raise Expectations -> Expand Demand (loop).</ed>
+
+<ed>Visual suggestion: convert this recurring pattern into a labeled cycle diagram in final layout to reinforce repeatability.</ed>
+
 The numbers back it up. In the 1970's there were fewer than 100,000 programmers working in the U.S. By 1990, that number had grown to around 568,000. By 2010, the Bureau of Labor Statistics counted more than 1.4 million software engineering roles in the U.S. alone. In 2025, that number is closer to 1.8 million and global estimates are over 26 million professional software engineers.
 
 Every time building software became easier, the world responded with a demand for even more software engineers. Efficiency hasn't shrunk the industry, it has expanded it.
@@ -111,6 +100,8 @@ AI is not an exception.
 
 AI code generation can feel like magic at first. You type a few words in natural language and suddenly a block of code appears on the screen. But that same magic can quickly become frustrating.
 
+<ed>Callout-warning: Common early failure modes (Vague Prompt, Hidden Assumptions, Architecture Drift).</ed>
+
 When prompts are too vague, the AI attempts to fill in the gaps with its own assumptions. Sometimes it guesses right. Other times it invents solutions that are completely misaligned with your goals. Instead of saving time, you waste more of it untangling the mess.
 
 That's why many software engineers describe AI as a black box. You don't always know what it's doing under the hood and the results can feel unpredictable. However, if you learn how to communicate with AI through prompts, it can be another major leap in efficiency.
@@ -122,6 +113,8 @@ The tools are new, but the mental models and approaches are the same.
 ## From Task Templates to Prompt Templates {#sec-from-task-templates-to-prompt-templates}
 
 Let's use an example template from Chapter 3 Task Templates[xxx](#sec.buildtasktemplates). This template was designed in order to give enough information for a software engineer to understand exactly what was needed. General best practices and standard design details are not included in our original task template.
+
+<ed>Table placeholder: Task Template Element | Prompt Translation Adjustment.</ed>
 
 *Template Name:* Standard CRUD API for DOMAIN_ENTITY with Event Sourcing
 
@@ -155,6 +148,10 @@ Follow best practices for clean architecture, maintainability, scalability, and 
 
 The task template and the AI prompt are almost identical, but we added some additional directions for the AI engine. The mental work hasn't changed. You still decide the patterns and the guardrails. But now, instead of spending hours typing code, you can spend minutes.
 
+<ed>Callout-important: Speed amplifies both good architecture and hidden weaknesses—enforce review checklist.</ed>
+
+<ed>Add caution: brief note reminding readers that weaker prompts propagate architecture anti-patterns faster—speed amplifies both good and bad.</ed>
+
 In the next section, we’ll walk through creating a prompt from a task template---and see how to adjust it when things don’t go as expected.
 
 ## Building AI Prompts {#sec-building-ai-prompts}
@@ -164,6 +161,8 @@ In the next section, we’ll walk through creating a prompt from a task template
 <!-- AI:END:figure-placeholder -->
 
 If you just copy and paste your original templates into an AI code generator, you likely will get unpredictable results. However, if we make a bit of effort, we can add effective AI prompts to all your templates.
+
+<ed>Checklist callout: Prompt readiness (Clear context, Constraints, Output format, Validation step).</ed>
 
 ### Step 1: Review a Task Template
 
@@ -237,6 +236,10 @@ Take note of anything that didn't come out as expected. Those notes become your 
 You likely won't get perfect results on the first try. Iterate until the AI's output is good enough that it could pass a standard code review. The goal isn't to get code identical to what you'd write, but to reduce your effort to a quick review and a few minor edits.
 
 Over time, you'll fully update your task template playbook so that all of your templates have an associated AI prompt to start with.
+
+<ed>Versioning note: Store prompts under /prompts with semantic versioning (e.g., crud-api-prompt-v1.md).</ed>
+
+<ed>Scalability note: suggest versioning prompt templates alongside code (e.g., in /prompts with semantic version tags) to track evolution.</ed>
 
 ### Up Next: Working with Your Team
 

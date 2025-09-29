@@ -6,18 +6,17 @@ book:
   author: "Joel Karr"
   chapters:
     - index.qmd
-    - Preface.md
-    - The_Origin.md
-    - Deliberate_Practice.md
+  - Preface.md
+  - The_Origin.md
+  - Deliberate_Practice.md
     - Task_Templates.md
+    - Requirements_Alignment.md
+    - Ship_Over_Polish.md
     - Instant_Decisions.md
     - Innovation.md
     - The_Core_Doesnt_Change.md
-    - Think_Together.md
-    - Code_Review.md
-    - Requirements_Gathering.md
-    - Business_Alignment.md
-    - Embracing_Imperfection.md
+    - Shared_Cognition.md
+    - Adoption_Playbook.md
     - Building_Engineering_Culture.md
     - Technical_Leadership.md
     - Architecting_Your_Career.md

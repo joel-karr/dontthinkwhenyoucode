@@ -4,24 +4,6 @@ Filename: Architecting_Your_Career.md
 
 <!-- begin chapter id="chp.architect_career" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You've been building technical skills and delivering value, but you're not sure if your career is progressing in the right direction. You've seen talented engineers plateau while others seem to continuously advance, and you suspect it's not just about technical ability. You want to understand how to design a career that keeps growing regardless of company changes, technology shifts, or market conditions.
-
-What will I learn?
-
-: You'll learn how to choose opportunities that move your career forward (not just sideways), and how to create a foundation that stays valuable even as the tech landscape shifts.
-
-What will I be able to do that I couldn't do before?
-
-: Make strategic career decisions with confidence, build skills that transfer between roles and technologies, and create opportunities for advancement rather than waiting for them to appear.
-
-Where are we going next, and how does this fit in?
-
-: In the final chapter, we will explore how AI and technological change affect the core skills we've been building, showing why the foundation you're creating remains valuable even as tools and technologies evolve.
-<!-- end storymap -->
-
 By this point in your journey, you've been building tools to think better, to practice better, and to collaborate better.
 
 <!-- AI:BEGIN:mini-toc -->

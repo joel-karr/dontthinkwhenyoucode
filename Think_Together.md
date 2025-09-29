@@ -4,24 +4,6 @@ Filename: Think_Together.md
 
 <!-- begin chapter id="chp.think_together.md" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You struggle to organize complex architectures in your head and communicate system designs clearly to others. You want to focus on specific areas of a system without getting lost in overwhelming details.
-
-What Will I learn?
-
-: How to group complexity using visual frameworks and analogies, techniques for creating mental footholds that let you navigate between different system areas, and methods for making abstract architectures concrete and manageable in your own thinking.
-
-What will I be able to do that I couldn't do before?
-
-: You'll help your team get on the same page faster, use simple frameworks to cut down on confusion, and make it easier for everyone to make decisions and solve problems together.
-
-Where are we going next, and how does this fit in?
-
-: Shared models enable coordination on what you should be building as a team. Next we will discuss how to turn code reviews into constructive feedback loops to test against your own mental models.
-<!-- end storymap -->
-
 
 ## When Mental Models Collide
 

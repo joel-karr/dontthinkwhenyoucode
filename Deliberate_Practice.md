@@ -4,23 +4,7 @@ Filename: Deliberate_Practice.md
 
 <!-- begin chapter id="chp.deliberate_practice" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You've noticed that simply writing more production code isn't making you better at the rate you expected. You want to understand why some engineers improve rapidly while others plateau despite years of experience, and you need a systematic approach to building real skills.
-
-What will I learn?
-
-: You will learn the difference between practice and production work, how to create scenarios to challenge yourself, the training journal technique for converting every point of hesitation into skill-building exercises, and why deliberate practice requires being comfortable with being uncomfortable.
-
-What will I be able to do that I couldn't do before?
-
-: You'll be able to design focused practice sessions that target your actual skill gaps rather than just doing more work. You'll maintain a training journal that will show you how you can turn your weaknesses into strengths and how intentional practice reduces cognitive load when you are under pressure for production deadlines.
-
-Where are we going next, and how does this fit in?
-
-: Deliberate practice builds the understanding needed to handle complexity, but you also need mental models for organizing that complexity. Next, you'll learn how to compress repeated decisions into reusable templates.
-<!-- end storymap -->
+<ed>Visual: Add a 3-column summary table here (Problem | Why Experience Alone Fails | Deliberate Practice Intervention) for quick scan.</ed>
 
 <!-- begin sect1 -->
 
@@ -33,13 +17,21 @@ Where are we going next, and how does this fit in?
 
 You know what flow feels like, when your mind locks in to the code and time disappears. But getting there consistently? That's where things get tricky.
 
+<ed>Callout-note: Reference prior chapter's flow conditions diagram and restate "We manufacture conditions via practice" in one sentence.</ed>
+
+<ed>Consider a tighter transitional sentence that explicitly links this chapter to the prior flow chapter (e.g., "Flow showed you what's possible; deliberate practice is how you reach it on purpose").</ed>
+
 If you've been spending lots of time writing production code hoping that would automatically make you a better engineer, you're not alone. Many software engineers hit a plateau. Despite years of experience, writing code either becomes boring or you get frustrated with the same issues repeatedly.
 
 The real breakthrough comes when you stop relying on experience alone and start training with intent.
 
+<ed>Principle callout: "Unfocused repetition reinforces current ceiling; targeted reps raise it."</ed>
+
 That realization took me longer than I'd like to admit. Early in my career, I assumed that showing up, shipping features, and fixing bugs was the path to mastery. After all, don't you gain experience from hours and hours of coding?
 
 I started to feel lost. The moments of flow I had experienced before seemed impossible to reproduce. Even though I was producing more code than ever, I kept getting stuck on the same kinds of problems. Writing code felt forced.
+
+<ed>Opportunity to quantify: add one concrete example of a recurring problem (e.g., "n+1 query performance issue" or "naming inconsistency in service classes") to make the plateau tangible.</ed>
 
 I thought back to what I had learned from Mihaly Csikszentmihalyi's research [xxx](#sec.discovery_of_flow) on the conditions required for flow. Your skills and challenges need to be balanced. If the task is too difficult it turns into stressful. If it's too easy, then you get bored.
 
@@ -75,13 +67,19 @@ As the least experienced engineer in the cloud room, I was afraid of being expos
 
 This was deliberate practice in its purest form. It was a systematic, focused effort aimed at building the cognitive tools I would need for future challenges.
 
+<ed>Figure placeholder: Simple layered diagram (Reading -> Pattern Extraction -> Mental Model Alignment -> Flow Event).</ed>
+
 When it became clear the original engineers wouldn't hit the deadline, tension filled the room. With two weeks left, nobody was optimistic there was even a viable path forward. I offered to help.
 
 I started by reading.
 
+<ed>Timeline (mermaid) suggestion: Day -2 Read Legacy | Day -1 Pattern Clusters | Day 0 Breakthrough Coding Sprint.</ed>
+
 For two full days, I didn't write a single line of new code. I just read the legacy system over and over, trying to mentally untangle its design. I reorganized it in my head repeatedly, searching for ways to decompose it into understandable, manageable components.
 
 By the weekend, I knew I had one shot to push forward before we ran out of time. My plan was simple. I would work as long as I could and see how far I might get before Monday. After an hour of coding, something clicked.
+
+<ed>Pacing: this paragraph plus the next three narrate the breakthrough—consider collapsing into a single, higher-intensity paragraph to accelerate momentum.</ed>
 
 Suddenly the entire problem was laid out in my mind like a blueprint. The patterns I had seen over those two days of reading started aligning with the skills I had drilled into muscle memory during months of deliberate practice. The pieces fell into place.
 
@@ -122,6 +120,10 @@ I picked one skill: an outside single-leg takedown, a move perfected by another 
 
 I kept that journal every day for months. Slowly, the takedown that had once felt impossible to score with became automatic. I didn't win every match but I reached a point where I could reliably get that takedown on any of my opponents. That level of confidence came from drilling tiny corrections until they lived in my subconscious.
 
+<ed>Comparison table: Wrestling Micro-Adjustment | Software Analog (Foot angle -> Interface naming, Hip timing -> Refactor extraction point).</ed>
+
+<ed>Bridge suggestion: add one explicit sentence translating the wrestling micro-adjustments to coding (e.g., variable naming, refactoring seams) to reinforce transfer before switching domains.</ed>
+
 Years later, I applied that same process to software engineering.
 
 In an industry where people rarely write anything down physically, I had my notepad. Every time I got stuck, I wrote it down:
@@ -139,7 +141,11 @@ Each item became a deliberate practice rep. Over time, the journal became my per
 
 ## Building Your Personal Training System {#sec-building-your-training-system}
 
+<ed>Checklist callout: Notebook layout suggestion (Front: Hesitations, Middle: Focus Areas, Back: Metrics / Wins).</ed>
+
 The power of the training journal lies in the practice of writing things down. Start with a physical notepad. 
+
+<ed>Potential objection: briefly acknowledge digital tools (e.g., Obsidian, Notion) and justify why analog first builds friction that encodes memory.</ed>
 
 This may sound old-fashioned in an industry built on keyboards and screens, but there's a neuroscience behind the choice to write by hand. Spend time picking out a notebook that is unique to you. This will become your most important development tool. Find a nice pen with some weight. When you write things down you want to commit to the items that you need to practice.
 
@@ -153,6 +159,8 @@ Your real work provides the best practice material because it's immediately rele
 <!-- begin sect1 -->
 
 ### Step 1: Capture the Hesitation
+
+<ed>Table placeholder: Hesitation | Emotion | Practice Drill | Success Metric.</ed>
 
 As you write production code or work with your team, pay attention to the moments when you hesitate:
 
@@ -176,6 +184,8 @@ For example, you might write the following:
 
 ### Step 2: Group Into Focus Areas
 
+<ed>Visual: Tag list styling (e.g., `[async] [naming] [api] [tests]`) to encourage consistent categorization.</ed>
+
 After a few days of capturing hesitations, you'll start seeing patterns. Group related items into focus areas.
 
 Examples of focus areas:
@@ -192,6 +202,8 @@ These focus areas become your practice curriculum, built from your actual work c
 
 ### Step 3: Create Deliberate Practice Exercises
 
+<ed>Callout-warning: Warn against over-scoping exercises into mini products (keep reps < 60 min).</ed>
+
 Pick only one focus area and then create specific exercises that push you just beyond your current comfort zone. These should be challenging but achievable tasks that require you to apply what you've learned:
 
 * Refactor a legacy service to use dependency injection
@@ -205,6 +217,8 @@ The key is to make these exercises uncomfortable. They should stretch your skill
 <!-- begin sect1 -->
 
 ### Step 4: Set Time to Train
+
+<ed>Schedule template table: Day | Focus Area | Drill | Duration | Confidence (1–5).</ed>
 
 Just as how athletes schedule practice, you need to schedule your deliberate practice sessions. Set aside 30-60 minutes a few times a week to focus solely on these exercises. Write down when you plan to train, so you are holding yourself accountable. 
 

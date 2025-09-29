@@ -11,27 +11,13 @@
 
 Filename: Innovation.md
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You've built solid task templates for common problems, but you are running into situations where the proven approaches aren't enough. You want to learn how to innovate systematically rather trying different, wild ideas to see if any work.
-
-What will I learn?
-
-: How to create innovative solutions building on your proven foundation. 
-
-What will I be able to do that I couldn't do before?
-
-: You'll be able to approach new challenges with confidence using a structured approach. You will know when it's best to innovate and when it's best to stick to proven solutions.
-
-Where are we going next, and how does this fit in?
-
-: This will conclude the individual mastery section and next you will move to how to work with your team and others.
-<!-- end storymap -->
-
 The previous chapters have shown you how to build your core skillset, create predictable task templates, and make solid decisions even in uncertain conditions. What happens when you encounter a business problem that you can't solve?
 
+<ed>Hook sharpening: pose the core tension as a question with stakes ("How do you invent responsibly when proven patterns fail under deadline?") to heighten reader pull.</ed>
+
 In movies, the hero might slip, hit their head, and wake up with a genius idea. I wouldn't recommend that approach. Instead, this chapter will show you how to take a systematic approach to innovation—developing new approaches while maintaining focus on the goal. My own turning point came while working to improve the performance of an ecommerce search page. I discovered how using analogies can change your perspective and let you break through tough technical challenges.
+
+<ed>Callout-note: Define "Systematic Innovation" = Preserve proven base + Isolate shortfall + Shift perspective + Cheaply validate.</ed>
 
 ## Getting a New Perspective {#sec-getting-a-new-perspective}
 
@@ -47,7 +33,13 @@ We started playing a game that turned into an excellent catalyst for innovative 
 
 We started by defining what success looked like: sub-second response time, ability to filter on twelve different fields, and returning full restaurant objects. Nothing else was off-limits.
 
+<ed>Metrics callout: Baseline P95 vs Target (<1s) placeholder for later data insert.</ed>
+
+<ed>Quant detail: add baseline prior response time (e.g., "~3.2s P95") to contextualize improvement target.</ed>
+
 After a few attempts at analogies that didn't quite hit the mark, we landed on imagining the search functionality was a popular dating game show from the late 1990s on MTV called *Singled Out*. The show started with 50 contestants all hoping to win a date with the central player called the "Picker". The Picker couldn't see the contestants directly. Instead, each time the Picker stated a preference—like their favorite sport is basketball—contestants who didn't match walked off the stage in single file past the Picker. Round by round, the large group was filtered down to a final few contestants that the Picker would get to see and pick a favorite for a date.
+
+<ed>Figure placeholder: Analogy mapping diagram (Show Flow vs Query Filtering) reinforcing table below.</ed>
 
 As soon as the Picker would answer a question—like their favorite sport—the contestants who didn't match would start walking out in single file. During a conversation about how the show's host could catch cheating by contestants who try to change their answers to stay in the game, we thought maybe the host already had contestant numbers with their answers to each question on a single card. That way they could quickly see which contestants should remain.
 
@@ -68,6 +60,8 @@ That's when it clicked. We could have the best of both worlds by building a SQL 
 
 By using analogies, you can change your perspective to think of new ways to solve technical challenges.
 
+<ed>Checklist callout: When to introduce analogy (Repeated failed tweaks | Ambiguous constraint | Cognitive fatigue).</ed>
+
 ## Using an Innovation Framework {#sec-using-an-innovation-framework}
 
 As a student in the very first iMBA class at the University of Illinois, I was excited to take a course on Innovation with Professors Jeffrey Loewenstein and Jack Goncalo. Like many, I always had been told that creativity or innovation was a skill that people are born with or without.
@@ -83,6 +77,10 @@ His framework is captured by the acronym PAGES:
 * Goals: Objectives or outcomes desired from the actions
 * Events: Incidents or occurrences that affect the situation
 * Self-concept: Identities or roles of the individuals involved
+
+<ed>Table placeholder: PAGES Element | Current Example | Swap Experiment Idea.</ed>
+
+<ed>Reader aide: consider a small table mapping each PAGES element to a concrete software example (e.g., Parts=API gateway) for faster transfer.</ed>
 
 Although designed as a general creativity tool, the framework seems tailor-made for software engineering. We already build systems in ways that group information like this.
 
@@ -106,6 +104,8 @@ Once we have listed out all our different pieces, we can experiment by swapping 
 
 For example, what if the results page only displayed one item instead of a list?  That might force the users to give more information about what they want instead of scrolling. Changing that part forces us to rethink filtering. Could we use a large language model to guide filtering instead of traditional options with predefined fields? This would make the experience for the user more like a chat where they continue the conversation until they find an option they like.
 
+<ed>Callout-tip: Label this scenario as Part Swap #1 in a styled callout for pattern reuse.</ed>
+
 We may have found a better solution but let’s swap out another item. What if we changed our self-concept to be a salesperson. By showing a single option, we may lose the opportunity to sell multiple restaurants.
 
 Let's try using self-concept to adjust our perspective again. What if we think like a salesperson and we look at this new solution? You may realize that by only showing a single option, you may lose the chance for the user to browse past other things. Let's add a smaller section that has secondary recommendations for the user. The LLM would still drive the results, but now we have the top result and then other recommended results.
@@ -123,6 +123,8 @@ Software engineering often involves trade-offs. One fix may solve a problem but 
 #### Example: Defining a Routing Challenge
 
 Challenge: Route phone calls to an agent queue in under one second based on both department and brand. The system connects to multiple CRMs, each with a 3-5 second response time.
+
+<ed>Clarify constraint: specify concurrency/volume (e.g., peak calls per minute) to frame why naive sequential CRM lookups fail.</ed>
 
 ### Step 2: Choose an Existing Task Template
 
@@ -156,6 +158,8 @@ This is where innovation begins. Pick one part of your task template and swap it
 
 Replace the real-time CRM lookup with a cache that stores department and brand data across tenants. This solves the performance issue but introduces the risk of stale data. To fix that, we can add triggers that update the cache in real time whenever a CRM changes.
 
+<ed>Architecture diagram placeholder: Cache-first route + async CRM validation loop.</ed>
+
 Checking back to our original goal: we still have fast response times, and we can support multiple CRMs.
 
 ### Step 5 (Optional): Use Analogies
@@ -173,6 +177,8 @@ At security, each passenger scans their boarding pass. The system checks their a
 But sometimes gates change at the last minute. If the airline waited only until check-in to fix this, travelers would miss their flights. Instead, there are monitors past security that display the latest gate info. Passengers are already moving, but they still get an update if something changes.
 
 That sparked an idea: what if we did the same thing? Route the caller instantly using cached data, then re-check the CRM once they’re already in the queue. If the CRM returns new information, we could shift the caller to a different queue before they speak to an agent.
+
+<ed>Sequence diagram placeholder: Caller -> Cache -> Queue (provisional) -> Async CRM -> Optional Re-route.</ed>
 
 This way, the analogy didn’t just hand us a solution---it helped us troubleshoot. 
 
@@ -194,6 +200,8 @@ This five-step process gives you a practical innovation toolkit:
 4. Swap Parts – Rethink components without throwing everything out.
 
 5. Use Analogies – Shift perspectives when you get stuck.
+
+<ed>Callout-important: Anti-patterns (Full Rewrite Reflex, Tool Hype Adoption, Endless Ideation Loop).</ed>
 
 ## Up Next: Applying Mastery with AI Code Generation {#sec-up-next-ai}
 <!-- AI:BEGIN:end-matter -->
