@@ -1,26 +1,19 @@
 
 # Align Work with Business Priorities
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You've put a lot of time and energy into building a great technical solution, only to find out that the users weren't excited. You want to know how to align the effort you are putting in with the needs of the business.
-
-What will I learn?
-
-: How to work with product to identify where they expect measurable value, then determine the optimal effort to capture that value without unnecessary complexity.
-
-What will I be able to do that I couldn't do before?
-
-: Look at technical decisions from a business perspective, propose solutions that directly support business goals, and position yourself to work on projects that matter.
-
-Where are we going next, and how does this fit in?
-
-: Next we'll examine gold-plating and how chasing perfection undermines business alignment.
-<!-- end storymap -->
-
 
 ## Overview
+
+<!-- AI:BEGIN:mini-toc -->
+## In this chapter
+- See @sec-overview
+- See @sec-identify-unknowns
+- See @sec-apply-templates
+<!-- AI:END:mini-toc -->
+
+<!-- AI:BEGIN:figure-placeholder -->
+<!-- Figure placeholder: consider adding a diagram mapping business priorities to engineering templates -->
+<!-- AI:END:figure-placeholder -->
 
 This chapter explains how to convert product requests into predictable work, estimate effort using task templates, identify unknowns, and run productive conversations with product and stakeholders so you deliver the right thing with the right effort.
 

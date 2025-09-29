@@ -1,39 +1,29 @@
-# Be Predictable with Task Templates
+# Be Predictable with Task Templates {#sec-be-predictable-with-task-templates}
 
 Filename: Task_Templates.md
 
 <!-- begin chapter id="chp.task_templates" -->
 
-<!-- begin storymap -->
-Why do I want to read this?
-
-: You're tired of every project feeling like you're starting from scratch, with endless debates about implementation details and constantly changing requirements that derail development momentum.
-
-What will I learn?
-
-: How to create task templates, why predictability (not cleverness) is the real goal of great engineering.
-
-What will I be able to do that I couldn't do before?
-
-: You'll build your own collection of task templates for common engineering challenges.
-
-Where are we going next, and how does this fit in?
-
-: Task templates are just the beginning—you need deeper mental models for decision-making.
-<!-- end storymap -->
-
 <!-- begin sect1 -->
 The previous chapter showed you how deliberate practice builds the skills you need to enter a flow state. But skill alone isn't enough when working inside a complex system under tight deadlines. Even the most talented engineers can find themselves overwhelmed. You need to have predictable execution, with the ability to move quickly without getting caught rethinking every decision. 
+
+<ed>Opening efficiency: consider trimming one of the first three sentences to reduce redundancy (all restate overwhelm). You can merge into a single sharper hook about reducing cognitive drag under deadline.</ed>
 
 There's a saying in software engineering. A junior software engineer knows one way to solve a problem. A mid-level engineer knows many ways. An expert knows which one to use. Mastery isn't about collecting every skill possible like they are Pokémon cards, it's about instantly choosing the right approach for the moment and executing without hesitation.
 
 In this chapter, we’ll explore a practical tool that builds on your strengths and makes your work predictable: task templates. They turn repeated decisions into reusable collections, so you can save your mental energy for the real problems that matter.
 
+<ed>Visual: Add callout-note summarizing formula: Template = Pre-decided Pattern + Task List + Baseline Time.</ed>
+
 <!-- begin sect1 -->
 
-## Six Months to Finish a 10-Month Project
+## Six Months to Finish a 10-Month Project {#sec-six-months-to-finish-a-10-month-project}
 
 Predictability is a competitive advantage. It lets teams focus on building quality applications instead of constantly worrying about unknowns, risks, and immovable timelines. I learned this firsthand in a project where the original estimate was ten months, but we had only six before the deadline.
+
+<ed>Metrics callout: Table (Original Estimate 10 mo | Available 6 mo | Risk: Regulatory revenue loss) to concretize tension.</ed>
+
+<ed>Add stakes metric: specify projected revenue impact or user count affected to amplify urgency before narrating consultants' estimates.</ed>
 
 Sitting in a small conference room, I listened as a team of top software consultants walked through the remaining work left on a very large project. The company had signed a multi-million dollar statement of work with this firm to deliver a product expected to generate major revenue in the first year. For the first few minutes, it was the usual consultant talk about cutting-edge tech stacks, new frameworks, and ability to hyper scale. But then I heard something that made me sit up straight. When they totaled up all the estimates, the product wouldn't be ready for another ten months. That was a problem. The U.S. Securities and Exchange Commission (SEC) had regulations taking effect in just six months. If the product wasn't ready, we would lose all the revenue.
 
@@ -44,6 +34,8 @@ I left the room with my mind racing. Could we reduce scope? Could we change the 
 I kept coming back to one thing. Most of the time was allocated to researching and testing new ideas. What if we focused on our strengths and only used approaches that we knew would work? I pulled in a close friend and colleague who’d been in the cloud room with me and had fought through the same challenges with new tech and too many unknowns. We spent the next few hours breaking down the solution into known approaches.
 
 We ended up with a detailed list of tasks that we were confident could deliver the business value our customers were expecting after six months. Hitting that deadline meant protecting the millions in revenue our company had already committed to investors. Over the next few months, anytime that scope changed, we checked to see if the change added new tasks. If it did, then we knew that we had to find ways to pick up the extra tasks without extending our timeline.
+
+<ed>Flow diagram placeholder: Scope Change -> Task Delta? -> (Yes) Adjust Capacity / Negotiate | (No) Continue Execution.</ed>
 
 We were successful not because we worked long hours or drastically cut scope. Our success came from limiting unknowns and sticking to a detailed plan everyone understood.
 
@@ -63,7 +55,9 @@ Often we know we should stick to well proven approaches, but the pressure to del
 
 <!-- begin sect1 -->
 
-## Predictable Teams Move Faster
+## Predictable Teams Move Faster {#sec-predictable-teams-move-faster}
+
+<ed>Analogy table: Fire Role | Software Parallel (Engine 1 -> Backend API, Ladder -> Frontend UX, Water Supply -> DevOps/Infra).</ed>
 
 Let's look at a field outside of software where predictability can mean the difference between life and death: firefighting.
 
@@ -81,18 +75,24 @@ Many engineers resist this kind of structure. It can feel like unnecessary red t
 
 The fire department figured out that even though chaos feels urgent, predictable execution saves lives. Software teams need to apply the same lesson: systematic approaches enable speed under pressure. It's time invested that lets you work with confidence.
 
+<ed>Callout-important: Principle – Separate experimentation time from execution time.</ed>
+
+<ed>Opportunity for a one-line contrast: "Chaos feels productive; predictability compounds." Adds rhetorical punch before transition.</ed>
+
 We know that predictability makes teams move fast, but the biggest obstacle is our temptation to reinvent instead of reusing what already works.
 <!-- end sect1 -->
 
 <!-- begin sect1 -->
 
-## The Innovation Trap
+## The Innovation Trap {#sec-the-innovation-trap}
 
-Software engineers often believe they need to find a new solution to demonstrate their skills. They look for different ways to build things, even when a simple, proven approach already works.
+<ed>Decision matrix placeholder: Option | Proven? | Complexity | Business Impact | Keep? to discourage novelty bias.</ed>
 
 This obsession with innovation often backfires. Engineers end up debating architecture for each new product request. Teams spend more time researching and refactoring than building. They abandon working solutions because they think they're boring, not because they're broken. 
 
 The irony of the situation is that true engineering value doesn't come from inventing new approaches. It comes enabling business to solve real world problems by solving complex real-world scenarios with well known patterns.
+
+<ed>Grammar tweak needed: "It comes enabling" -> "It comes from enabling"; also consider merging both sentences to tighten repetition of "real world."</ed>
 
 I learned this lesson through a computer science course on AI several years ago. The final project for the course was to create a bot that would play [The Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) against our classmates' bots.
 
@@ -113,9 +113,13 @@ And to my surprise, the bot built on decades of proven approaches won the tourna
 
 <!-- begin sect1 -->
 
-## Introducing Task Templates
+## Introducing Task Templates {#sec-introducing-task-templates}
 
-Task templates can be a secret weapon for great engineers. They allow you take complex product requirements and turn them into actionable tasks that can be executed with confidence.
+<ed>Comparison table: Task Template vs ADR vs Runbook (Purpose | Scope | Lifespan) for conceptual clarity.</ed>
+
+<ed>Block diagram placeholder: Layers (Data Access / Domain Logic / Eventing / Interface) mapped to template families.</ed>
+
+<ed>Clarify scope: add a clause distinguishing task templates from architectural decision records (ADR) to avoid conceptual overlap for senior readers.</ed>
 
 One of the most stressful conversations any software engineer can have is when a product manager asks for an estimate. They always give plenty of caveats about how they won't hold us to the timelines. We know that the reason they are asking is because they need to give an estimate to their boss, who needs to give an estimate to their boss, who needs to give an estimate to the CEO. And so we scramble to come up with a number that is both realistic yet doesn't make us look incompetent.
 
@@ -136,15 +140,30 @@ The key is to be able to group tasks together into components so that you don't 
 
 ## Building Task Templates {#sec.buildtasktemplates}
 
+<!-- AI:BEGIN:mini-toc -->
+
+## In this chapter
+- See @sec-six-months-to-finish-a-10-month-project
+- See @sec-predictable-teams-move-faster
+- See @sec-the-innovation-trap
+
+<!-- AI:END:mini-toc -->
+
 Task templates are pre-defined collections of software tasks that represent decisions your team has already made around technical standards. They eliminate the need to re-debate architectural choices for common scenarios and enable reliable estimates. A good task template captures enough information that anyone reading it can understand the actions to take and the decisions have already been made. Task templates are living documents. Update them only when new information proves a better approach, not just because someone has a new preference.
 
+<ed>Potential refinement: separate "what it is" vs "how to maintain" into two short paragraphs to reduce cognitive load and scanning friction.</ed>
+
 Keep them somewhere visible and accessible such as a team wiki or knowledge base. Most templates are kept short and use bullet points so that they are easily consumable. Think of them as your playbook. 
+
+<ed>Callout-tip: Recommend /playbook/templates folder with versioned filenames (crud-api-v1.md).</ed>
 
 ![Task Templates Example](images/task_template_example.pdf)
 
 <!-- begin sect2 -->
 
 ### Step 1: Build Your Template Library
+
+<ed>Checklist callout: Inventory recurring features -> Extract shared steps -> Normalize wording -> Dry run timing -> Publish.</ed>
 
 Document the tasks you need to build things using your team's standards.
 
@@ -166,6 +185,8 @@ Document the tasks you need to build things using your team's standards.
 - Add FluentValidation rules
 - Configure JWT Bearer authentication and authorization policies
 
+<ed>Optional table: Task | Baseline Time (hrs) | Variance after 3 runs.</ed>
+
 <!-- end sect3 -->
 
 <!-- begin sect3 -->
@@ -184,11 +205,15 @@ Document the tasks you need to build things using your team's standards.
 - Configure Polly retry policies and circuit breaker patterns
 - Add structured logging with correlation IDs
 - Handle dead letter queue scenarios with retry logic
+
+<ed>Diagram placeholder: Message flow (Producer -> Queue -> Worker -> Retry -> Dead Letter) via Mermaid.</ed>
 <!-- end sect3 -->
 <!-- end sect2 -->
 <!-- begin sect2 -->
 
 ### Step 2: Discuss with Your Team
+
+<ed>Callout-note: Facilitation tips—timebox; default to proven; log experimental ideas separately.</ed>
 
 Now that you have created a draft template, share it with your team members for feedback. Set the ground rules: the goal is to agree on repeatable steps that best fit your team's skills and business needs. Keep the discussion focused by asking questions like, "Would we be able to deliver this approach under pressure from deadlines?" or "How does this improve our ability to deliver business value?" Once the team has come to a consensus, you should all agree not to revisit the selections unless new information is introduced.
 
@@ -212,6 +237,8 @@ You: "Great idea. Let's add that. Now that we are all aligned, we can add this t
 <!-- begin sect2 -->
 
 ### Step 3: Practice Your Templates to Accurately Record Times
+
+<ed>Measurement table placeholder: Attempt | Setup | Execution | Interruptions | Bottleneck.</ed>
 
 You can't estimate what you haven't actually measured. Run through each template on its own and time yourself to get a real baseline.
 
