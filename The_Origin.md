@@ -8,7 +8,7 @@ Filename: The_Origin.md
 
 <!-- begin sect1 -->
 
-There's a book that's sat on my shelf for over 30 years. It holds the magical powers to instantly transport me back to the first time I felt deep flow while coding. I can still feel the cool basement air and see the glow of the computer screen all those years ago. It was in that basement that time first melted away and I felt all my outside worries and pressures disappear.
+There's a book that's sat on my shelf for over 30 years. It holds the magical powers to instantly transport me back to the first time I felt deep flow while coding. I can still feel the cool basement air and see the glow of the computer screen all those years ago. I would sneak downstairs after I was supposed to be in bedIt was in that basement that time first melted away and I felt all my outside worries and pressures disappear.
 
 <ed>Early hook opportunity: consider inserting a one-sentence, concrete definition of "flow" right after this paragraph so readers have an explicit anchor before the narrative continues (e.g., "Flow is the state where challenge and skill align so tightly that self-awareness and sense of time fade").</ed>
 

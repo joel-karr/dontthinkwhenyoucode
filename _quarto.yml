@@ -6,9 +6,9 @@ book:
   author: "Joel Karr"
   chapters:
     - index.qmd
-  - Preface.md
-  - The_Origin.md
-  - Deliberate_Practice.md
+    - Preface.md
+    - The_Origin.md
+    - Deliberate_Practice.md
     - Task_Templates.md
     - Requirements_Alignment.md
     - Ship_Over_Polish.md
