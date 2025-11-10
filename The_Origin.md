@@ -1,12 +1,8 @@
 # Find Your Origin Story {#sec-find-your-origin-story}
 
-Filename: The_Origin.md
-
-<!-- begin chapter id="chp.origin_story" -->
 
 <ed>Visual: Insert a short {.callout-note} summarizing the four question Storymap as a single "Why read / Outcome / Skill / Next" grid for quick scanning.</ed>
 
-<!-- begin sect1 -->
 
 There's a book that's sat on my shelf for over 30 years. It holds the magical powers to instantly transport me back to the first time I felt deep flow while coding. I can still feel the cool basement air and see the glow of the computer screen all those years ago. I would sneak downstairs after I was supposed to be in bedIt was in that basement that time first melted away and I felt all my outside worries and pressures disappear.
 

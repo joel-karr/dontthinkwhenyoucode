@@ -5,7 +5,7 @@ format: html
 ---
 
 ::: {.book-hero}
-# The Developer's Playbook
+# Don't Think When You Code
 
 Build predictable engineering results. Learn mental models, task templates, and team practices that make good decisions automatic.
 

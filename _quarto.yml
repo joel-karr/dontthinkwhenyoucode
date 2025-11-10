@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "The Developer's Playbook"
+  title: "Don't Think When You Code"
   author: "Joel Karr"
   chapters:
     - index.qmd
@@ -15,11 +15,6 @@ book:
     - Instant_Decisions.md
     - Innovation.md
     - The_Core_Doesnt_Change.md
-    - Shared_Cognition.md
-    - Adoption_Playbook.md
-    - Building_Engineering_Culture.md
-    - Technical_Leadership.md
-    - Architecting_Your_Career.md
 
 format:
   html:

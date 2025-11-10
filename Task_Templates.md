@@ -13,6 +13,8 @@ There's a saying in software engineering. A junior software engineer knows one w
 
 In this chapter, we’ll explore a practical tool that builds on your strengths and makes your work predictable: task templates. They turn repeated decisions into reusable collections, so you can save your mental energy for the real problems that matter.
 
+> Alignment First: This chapter assumes you’ve already validated *what* is worth decomposing (outcome, slice, exclusions). For the value filters, business canvas, and 7‑minute decomposition ritual that feed into templates, see the Requirements & Alignment chapter.
+
 <ed>Visual: Add callout-note summarizing formula: Template = Pre-decided Pattern + Task List + Baseline Time.</ed>
 
 <!-- begin sect1 -->

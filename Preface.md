@@ -8,7 +8,7 @@ But flow is tricky. You can't summon it on command. The more you chase it, the m
 
 What I didn't realize early in my career and what almost nobody teaches software engineers directly is that this problem isn't about coding at all. It's about how we think before we code.
 
-Over years of projects, mistakes, rewrites, hiring, scaling teams, responding to production outages, and navigating some truly terrifying deadlines, I kept seeing the same patterns emerge. What separated great engineers from everyone else wasn't knowledge. It wasn't even raw intelligence. <author>another spot where I think it makes sense to use this "its not this, its that", but let me know what you think</author>
+Over years of projects, mistakes, rewrites, hiring, scaling teams, responding to production outages, and navigating some truly terrifying deadlines, I kept seeing the same patterns emerge. What separated great engineers from everyone else wasn't knowledge. It wasn't even raw intelligence.
 
 It was the ability to convert ambiguous product requests into clear, executable task templates that make good decisions feel automatic.
 
@@ -68,14 +68,6 @@ Or jump straight to a current pain:
 * Worried about AI upheaval? The Core Doesn’t Change.
 
 Every chapter stands alone, but together they form your complete playbook.
-
-
-## Online Resources
-
-<!--Point readers to the book web page, where they can find the code download and a link to the book's forum and errata on DevTalk. Let readers know that if they’ve purchased the ebook, clicking the little gray box above the code extracts directly downloads the extract for them. Your book web page link will be: https://pragprog.com/title/[yourbookcode]
-
-Finally, end the Preface on a motivating, enthusiastic note. For example: “Let’s get started!”-->
-
 
 ## The Journey Ahead
 

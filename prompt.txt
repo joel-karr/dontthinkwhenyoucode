@@ -1,0 +1,118 @@
+Chapter Structure Prompt for Technical Writing
+You are helping write chapters for a book aimed at mid-level software engineers. Each chapter should teach a clear lesson while being enjoyable to read. Use the following structure:
+STRUCTURE TEMPLATE
+1. INTRO HOOK STORY (~10-15% of chapter)
+
+Open with a concrete, sensory micro-scene that shows the problem in action
+Include tension, stakes, and use observer POV to create immersion
+Show the problem's shape before naming the abstraction
+Make it recognizable—readers should think "I've been in this exact meeting/situation"
+Target: 600-800 words for a ~5,500 word chapter
+
+Quality check: Could a reader who skims only this section immediately recognize the problem in their own work?
+2. RESEARCH STORY / EVIDENCE FRAME (~15-20% of chapter)
+
+Integrate 1-2 research studies (psychology, cognitive science, decision science, organizational behavior)
+Bridge formal research findings to engineering practice
+Choose research type strategically:
+
+Diagnostic: Explains why the problem exists (validates reader's pain)
+Mechanism: Explains why the solution works (builds confidence in tactic)
+Counterintuitive: Challenges assumptions (creates "wait, what?" moments)
+
+
+Translate academic findings into engineering consequences (e.g., "chunking reduces cognitive load" → "templates convert recurring decisions into pre-priced blocks")
+Use narrative style—tell the story of the research, don't just cite it
+Target: 800-1,000 words
+
+FLEX OPTION: For some chapters, swap the order of Research and Lever sections if showing the tactic first, then explaining why it works, creates better flow.
+Quality check: Would an engineer say "Oh, there's an actual mechanism here" rather than "this is just someone's opinion"?
+3. THE LEVER (~5% of chapter)
+
+Distill the core mechanism into a single tight paragraph
+Use transformation language: "X converts to Y, which leads to Z"
+Include a "pattern equation" when applicable (e.g., "Templates convert recurring decisions → pre-priced blocks → reduced variance")
+This is aggressive compression—force yourself to crystallize the insight
+Target: 250-300 words maximum
+
+Quality check: Could someone read only this paragraph and explain the core idea to a colleague?
+4. BODY: APPLICATION & EXAMPLES (~40-45% of chapter)
+
+Provide 2-3 detailed worked examples or case studies
+Include tactical playbook: when to apply, how to apply, step-by-step rituals
+Cover common failure modes with brief fixes (not exhaustive—trust readers to extrapolate)
+Optionally add 1 supporting anecdote that reinforces the mechanism
+Use tables sparingly—only for truly scannable reference material (rituals, checklists, decision frameworks)
+Avoid: exhaustive coverage, every edge case, reference material that belongs in appendices
+Target: 2,200-2,500 words
+
+Quality check: Could a reader take one tactic from this section and apply it Monday morning?
+5. CLOSING HOOK (~5% of chapter)
+
+Seed the next chapter's problem or opportunity
+Make it feel like natural progression, not a cliffhanger
+Frame as "Once you can do X, the next challenge becomes Y"
+Should enhance continuity but not create dependencies (next chapter must stand alone)
+Target: 250-300 words
+
+Quality check: Does this create genuine curiosity without feeling manipulative?
+6. FIELD NOTE [OPTIONAL] (~2-3% of chapter)
+
+Single paragraph with the most important tactical takeaway
+Conversational, personal tone
+Often starts with "If you adopt only one thing from this chapter..."
+Use when you want to land a final punch or provide a memorable anchor
+Target: 100-150 words when used
+
+Quality check: Is this the one thing you'd want a reader to remember six months from now?
+
+WRITING GUIDELINES
+Voice & Tone:
+
+Write with the confidence of someone who's lived these problems, not lecturing
+Use specificity to create recognition ("late afternoon glare flattening faces into silhouettes" not "a meeting room")
+Stay frustrated with the reader about the problem, not at them
+Avoid: emojis, excessive formatting, over-explaining after the mechanism is clear, "textbook" language
+
+Compression Discipline:
+
+If the body exceeds 45%, you're either teaching multiple lessons (split the chapter) or including reference material (move to appendix)
+Trust your earlier sections—if Hook + Research + Lever did their job, readers already get it
+Pick representative examples over comprehensive coverage
+
+Research Integration:
+
+Never dump citations—always bridge to "here's what this means when you're in a sprint planning meeting"
+Use researcher names and study details for credibility, but keep the focus on practical implications
+Acceptable to use phrases like "Research on X shows..." without full academic citation format
+
+Tables & Formatting:
+
+Use tables only when they aid scannability (checklists, rituals, decision matrices)
+Keep tables in narrative flow to 2-3 maximum
+Convert prose to tables when there are clear parallel structures to compare
+Keep headers short and sentence-case
+
+Target Length:
+
+Total chapter: 5,000-6,000 words
+Can flex up to 7,000 for complex topics, but edit ruthlessly
+
+
+QUALITY GATES BEFORE FINALIZING
+
+The 30-Second Test: Can someone skim Hook + Lever and walk away with the core idea?
+The Standalone Test: If a reader skips previous chapters, does this one still make sense?
+The Dinner Party Test: After reading, could someone explain ONE insight in under 60 seconds?
+The Monday Morning Test: Can a reader take one concrete tactic and apply it this week?
+The Binge Test: Does the Closing Hook create genuine curiosity for what's next?
+
+
+EXAMPLE PATTERN EQUATION FORMATS
+
+"Templates convert recurring decisions → pre-priced blocks → reduced variance"
+"Decomposition forces private assumptions → shared artifacts → earlier alignment"
+"Option matrices convert vague requests → explicit tradeoffs → transferred ownership"
+"X breaks down into Y, which enables Z, resulting in [outcome]"
+
+Use these as models for crystallizing mechanisms in The Lever section.
